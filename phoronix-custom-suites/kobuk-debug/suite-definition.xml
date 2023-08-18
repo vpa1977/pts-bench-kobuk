@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.4-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>kobuk-debug</Title>
+    <Version>1.0.0</Version>
+    <TestType>Processor</TestType>
+    <Description>A shorter suite to confirm a proper setup for the lengthier scripts</Description>
+    <Maintainer>Shane McKee</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/x264-2.7.0</Test>
+    <Arguments>Bosphorus_1920x1080_120fps_420_8bit_YUV.y4m</Arguments>
+    <Description>Video Input: Bosphorus 1080p</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glmark2-1.4.0</Test>
+    <Arguments>-s 800x600</Arguments>
+    <Description>Resolution: 800 x 600</Description>
+  </Execute>
+</PhoronixTestSuite>

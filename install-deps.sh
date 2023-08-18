@@ -7,5 +7,4 @@ pip3 install meson
 wget $PTS_DEB_URL
 sudo dpkg -i $PTS_DEB_URL
 
-git clone https://github.com/mckees/custom-phoronix-suites
 cp custom-phoronix-suites/* $HOME/.phoronix-test-suite/test-suites/local/
