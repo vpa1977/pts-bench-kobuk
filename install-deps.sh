@@ -9,4 +9,6 @@ pip3 install meson
 wget $PTS_DEB_URL
 sudo dpkg -i $PTS_DEB_FILE
 
+# Prevents benchmark upload
+/usr/share/phoronix-test-suite/pts-core/objects/pts_openbenchmarking_upload.php
 cp -r phoronix-custom-suites/* $HOME/.phoronix-test-suite/test-suites/local/
