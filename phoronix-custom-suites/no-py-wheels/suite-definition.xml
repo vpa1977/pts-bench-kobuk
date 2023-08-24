@@ -19,11 +19,6 @@
     <Description>Video Input: Summer Nature 4K</Description>
   </Execute>
   <Execute>
-    <Test>pts/apache-3.0.0</Test>
-    <Arguments>-c 200</Arguments>
-    <Description>Concurrent Requests: 200</Description>
-  </Execute>
-  <Execute>
     <Test>pts/openssl-3.1.0</Test>
     <Arguments>rsa4096</Arguments>
     <Description>Algorithm: RSA4096</Description>
