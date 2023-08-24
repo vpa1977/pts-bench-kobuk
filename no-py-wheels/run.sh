@@ -5,7 +5,7 @@ unset CXXFLAGS
 unset FFLAGS
 
 SCRIPT_DIR=$(dirname "$0")
-$SCRIPT_DIR/../set_test_env.sh
+source $SCRIPT_DIR/../set_test_env.sh
 
 export TEST_RESULTS_IDENTIFIER=no-py-wheels-id 
 export TEST_RESULTS_NAME=no-py-wheels-name 

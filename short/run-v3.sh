@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SCRIPT_DIR=$(dirname "$0")
-$SCRIPT_DIR/../set_test_env.sh
+source $SCRIPT_DIR/../set_test_env.sh
 
 # PTS grabs these flags in pts_test_installer.php
 export CFLAGS='-march=x86-64-v3'
