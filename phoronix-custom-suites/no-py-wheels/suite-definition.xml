@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.4-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>no-py-wheels</Title>
+    <Version>1.0.0</Version>
+    <TestType>OS</TestType>
+    <Description>A suite which only uses installable packages or packages built from src</Description>
+    <Maintainer>Shane McKee</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/x264-2.7.0</Test>
+    <Arguments>Bosphorus_3840x2160.y4m</Arguments>
+    <Description>Video Input: Bosphorus 4K</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/dav1d-1.14.0</Test>
+    <Arguments>-i summer_nature_4k.ivf</Arguments>
+    <Description>Video Input: Summer Nature 4K</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/apache-3.0.0</Test>
+    <Arguments>-c 200</Arguments>
+    <Description>Concurrent Requests: 200</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/openssl-3.1.0</Test>
+    <Arguments>rsa4096</Arguments>
+    <Description>Algorithm: RSA4096</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/sqlite-2.2.0</Test>
+    <Arguments>16</Arguments>
+    <Description>Threads / Copies: 16</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/caffe-1.5.0</Test>
+    <Arguments>--model=../models/bvlc_googlenet/deploy.prototxt  -iterations 200</Arguments>
+    <Description>Model: GoogleNet - Acceleration: CPU - Iterations: 200</Description>
+  </Execute>
+</PhoronixTestSuite>
