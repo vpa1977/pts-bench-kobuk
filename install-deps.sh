@@ -16,3 +16,4 @@ sudo rm /usr/share/phoronix-test-suite/pts-core/objects/pts_openbenchmarking_upl
 phoronix-test-suite list-available-tests
 
 cp -r phoronix-custom-suites/* $HOME/.phoronix-test-suite/test-suites/local/
+cp ./user-config.xml $HOME/.phoronix-test-suite/
