@@ -14,6 +14,6 @@ export TEST_RESULTS_IDENTIFIER=kobuk-short-id
 export TEST_RESULTS_NAME=kobuk-short-name 
 export TEST_RESULTS_DESCRIPTION='The short version of the full Kobuk test suite with builds optimized for x86-64-v3'
 
-PTS_SILENT_MODE=1 phoronix-test-suite benchmark kobuk-bench-short
+PTS_SILENT_MODE=1 phoronix-test-suite batch-benchmark kobuk-bench-short
 
 phoronix-test-suite result-file-to-csv kobuk-bench-short
