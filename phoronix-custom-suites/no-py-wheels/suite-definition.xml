@@ -9,6 +9,11 @@
     <Maintainer>Shane McKee</Maintainer>
   </SuiteInformation>
   <Execute>
+    <Test>pts/opencv</Test>
+    <Arguments>dnn</Arguments>
+    <Description>Test: DNN - Deep Neural Network</Description>
+  </Execute>
+  <Execute>
     <Test>pts/x264-2.7.0</Test>
     <Arguments>Bosphorus_3840x2160.y4m</Arguments>
     <Description>Video Input: Bosphorus 4K</Description>
