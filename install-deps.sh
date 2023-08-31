@@ -16,4 +16,12 @@ sudo rm /usr/share/phoronix-test-suite/pts-core/objects/pts_openbenchmarking_upl
 phoronix-test-suite list-available-tests
 
 cp -r phoronix-custom-suites/* $HOME/.phoronix-test-suite/test-suites/local/
-cp ./user-config.xml $HOME/.phoronix-test-suite/
+cp ./config/user-config.xml $HOME/.phoronix-test-suite/
+
+# This checks if a device has a display and installs a dummy display if not
+if [ -z $DISPLAY ]; then
+    sudo apt install -y xserver-xorg-video-dummy
+    $(sudo X -config config/dummy-xorg.conf &)
+    echo 'Configured a headless X server for graphics tests'
+    echo 'Please run "export DISPLAY=:0"'
+fi
