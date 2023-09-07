@@ -21,4 +21,4 @@ export TEST_RESULTS_DESCRIPTION='A test suite which avoids Python wheels or preb
 
 PTS_SILENT_MODE=1 phoronix-test-suite batch-benchmark non-python-optimizable
 
-phoronix-test-suite result-file-to-csv non-python-optimizable
+phoronix-test-suite result-file-raw-to-csv non-python-optimizable
