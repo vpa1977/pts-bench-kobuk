@@ -3,7 +3,7 @@
 A layer on top of PTS automation which simplifies the PTS install + run process for Kobuk
 
 ## Usage
-Current test suites:\
+Current test suites:
 * non-python-optimizable
 * short
 
