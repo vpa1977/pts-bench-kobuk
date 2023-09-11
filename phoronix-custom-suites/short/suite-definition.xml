@@ -29,54 +29,9 @@
     <Description>Target: CPU - Model: SqueezeNet v2</Description>
   </Execute>
   <Execute>
-    <Test>pts/glmark2-1.4.0</Test>
-    <Arguments>-s 1920x1080</Arguments>
-    <Description>Resolution: 1920 x 1080</Description>
-  </Execute>
-  <Execute>
     <Test>pts/qgears2-1.0.1</Test>
     <Arguments>-image GEARSFANCY</Arguments>
     <Description>Rendering: CPU-based Raster - Test: Gears</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/vkfft-1.2.0</Test>
-    <Arguments>-vkfft 0</Arguments>
-    <Description>Test: FFT + iFFT C2C 1D batched in single precision</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/vkfft-1.2.0</Test>
-    <Arguments>-vkfft 1</Arguments>
-    <Description>Test: FFT + iFFT C2C 1D batched in double precision</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/vkfft-1.2.0</Test>
-    <Arguments>-vkfft 2</Arguments>
-    <Description>Test: FFT + iFFT C2C 1D batched in half precision</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/vkfft-1.2.0</Test>
-    <Arguments>-vkfft 3</Arguments>
-    <Description>Test: FFT + iFFT C2C multidimensional in single precision</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/vkfft-1.2.0</Test>
-    <Arguments>-vkfft 5</Arguments>
-    <Description>Test: FFT + iFFT C2C 1D batched in single precision, no reshuffling</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/vkfft-1.2.0</Test>
-    <Arguments>-vkfft 6</Arguments>
-    <Description>Test: FFT + iFFT R2C / C2R</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/vkfft-1.2.0</Test>
-    <Arguments>-vkfft 7</Arguments>
-    <Description>Test: FFT + iFFT C2C Bluestein in single precision</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/vkfft-1.2.0</Test>
-    <Arguments>-vkfft 8</Arguments>
-    <Description>Test: FFT + iFFT C2C Bluestein benchmark in double precision</Description>
   </Execute>
   <Execute>
     <Test>pts/dav1d-1.14.0</Test>
