@@ -54,6 +54,31 @@
     <Description>Model: 20k Atoms</Description>
   </Execute>
   <Execute>
+    <Test>pts/opencv-1.3.0</Test>
+    <Arguments>core</Arguments>
+    <Description>Test: Core</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/opencv-1.3.0</Test>
+    <Arguments>gapi</Arguments>
+    <Description>Test: Graph API</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/opencv-1.3.0</Test>
+    <Arguments>imgproc</Arguments>
+    <Description>Test: Image Processing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/opencv-1.3.0</Test>
+    <Arguments>stitching</Arguments>
+    <Description>Test: Stitching</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/opencv-1.3.0</Test>
+    <Arguments>video</Arguments>
+    <Description>Test: Video</Description>
+  </Execute>
+  <Execute>
     <Test>pts/openvino-1.2.0</Test>
     <Arguments>-m models/intel/vehicle-detection-0202/FP16/vehicle-detection-0202.xml -d CPU</Arguments>
     <Description>Model: Vehicle Detection FP16 - Device: CPU</Description>
