@@ -29,11 +29,6 @@
     <Description>Target: CPU - Model: SqueezeNet v2</Description>
   </Execute>
   <Execute>
-    <Test>pts/qgears2-1.0.1</Test>
-    <Arguments>-image GEARSFANCY</Arguments>
-    <Description>Rendering: CPU-based Raster - Test: Gears</Description>
-  </Execute>
-  <Execute>
     <Test>pts/dav1d-1.14.0</Test>
     <Arguments>-i summer_nature_1080p.ivf</Arguments>
     <Description>Video Input: Summer Nature 1080p</Description>
