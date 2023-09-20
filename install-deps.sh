@@ -26,7 +26,8 @@ sudo ln -s /usr/lib/x86_64-linux-gnu/libOpenCL.so.1 /usr/lib/libOpenCL.so
 # This checks if a device has a display and installs a dummy display if not
 if [ -z $DISPLAY ]; then
     sudo apt install -y xserver-xorg-video-dummy
-    $(sudo X -config config/dummy-xorg.conf &)
+    sudo Xorg --configure
+    mv /root/xorg.conf.new /etc/X11/xorg.conf
     echo 'Configured a headless X server for graphics tests'
     echo 'Please run "export DISPLAY=:0"'
 fi
