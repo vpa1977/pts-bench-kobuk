@@ -3,7 +3,10 @@ PTS_DEB_URL=https://phoronix-test-suite.com/releases/repo/pts.debian/files/$PTS_
 
 sudo apt install -y php-cli php-xml build-essential xterm p7zip-full nasm yasm libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev freeglut3-dev libssl-dev openssl php-cli php-xml autoconf mesa-utils vulkan-tools unzip apt-file cmake ninja-build meson gawk bison qtbase5-dev qt5-qmake libfftw3-dev fftw-dev freeglut3-dev python3-pip python3-yaml gfortran libopenmpi-dev openmpi-bin libmpich-dev
 
-pip3 install meson
+# Installing a non-optimized version for the dav1d benchmark
+# Shouldn't be an issue since a build tool shouldn't be involved in the measurement
+wget https://people.canonical.com/~mckeesh/meson_1.0.1-5ubuntu1_all.deb
+sudo dpkg -i meson_1.0.1-5ubuntu1_all.deb
 
 wget $PTS_DEB_URL
 sudo dpkg -i $PTS_DEB_FILE
