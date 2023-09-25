@@ -8,9 +8,11 @@ unset FFLAGS
 rm -rf $HOME/.phoronix-test-suite/installed-tests/
 
 # get the download cache for the short test suite
-wget https://people.canonical.com/~mckeesh/short-dl-cache.tar.xz
-tar xvf short-dl-cache.tar.xz
-mv download-cache $HOME/.phoronix-test-suite
+if [ ! -f short-dl-cache.tar.xz ]; then
+    wget https://people.canonical.com/~mckeesh/short-dl-cache.tar.xz
+    tar xvf short-dl-cache.tar.xz
+    mv download-cache $HOME/.phoronix-test-suite
+fi
 
 SCRIPT_DIR=$(dirname "$0")
 source $SCRIPT_DIR/../set_test_env.sh
