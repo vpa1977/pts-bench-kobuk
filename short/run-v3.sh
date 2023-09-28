@@ -28,4 +28,4 @@ export TEST_RESULTS_DESCRIPTION='A test suite which avoids Python wheels or preb
 
 PTS_SILENT_MODE=1 phoronix-test-suite batch-benchmark short
 
-phoronix-test-suite result-file-raw-to-csv short-name
+phoronix-test-suite result-file-raw-to-csv $TEST_RESULTS_NAME
