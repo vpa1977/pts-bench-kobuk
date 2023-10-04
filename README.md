@@ -3,8 +3,7 @@
 A layer on top of PTS automation which simplifies the PTS install + run process for Kobuk
 
 ## Usage
-Current test suites:
-* non-python-optimizable
+Current supported test suites:
 * short
 
 For running on a device with a display connected, just run:\
