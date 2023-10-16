@@ -16,12 +16,13 @@ fi
 
 SCRIPT_DIR=$(dirname "$0")
 source $SCRIPT_DIR/../set_test_env.sh
+PTS_BIN=$SCRIPT_DIR/../pts-source/phoronix-test-suite
 
 export TEST_RESULTS_IDENTIFIER=short-id 
 export TEST_RESULTS_NAME=short-name 
 export TEST_RESULTS_DESCRIPTION='A shorter version of a test suite which avoids\
        	Python wheels or prebuilt bins'
 
-PTS_SILENT_MODE=1 phoronix-test-suite batch-benchmark short
+PTS_SILENT_MODE=1 $PTS_BIN batch-benchmark short
 
 phoronix-test-suite result-file-raw-to-csv $TEST_RESULTS_NAME

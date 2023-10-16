@@ -1,0 +1,3 @@
+[submodule "pts-source"]
+	path = pts-source
+	url = https://github.com/mckees/phoronix-test-suite

@@ -2,6 +2,7 @@
 
 SCRIPT_DIR=$(dirname "$0")
 source $SCRIPT_DIR/../set_test_env.sh
+PTS_BIN=$SCRIPT_DIR/../pts-source/phoronix-test-suite
 
 # make sure we don't re-use tests that were built with different flags
 rm -rf $HOME/.phoronix-test-suite/installed-tests/
