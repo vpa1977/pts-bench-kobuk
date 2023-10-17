@@ -564,27 +564,7 @@
   </Execute>
   <Execute>
     <Test>pts/mkl-dnn-1.3.1</Test>
-    <Arguments>--rnn --batch=inputs/rnn/rnn_training --cfg=u8s8f32</Arguments>
-    <Description>Harness: Recurrent Neural Network Training - Data Type: u8s8f32</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/mkl-dnn-1.3.1</Test>
-    <Arguments>--rnn --batch=inputs/rnn/rnn_training --cfg=bf16bf16bf16</Arguments>
-    <Description>Harness: Recurrent Neural Network Training - Data Type: bf16bf16bf16</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/mkl-dnn-1.3.1</Test>
     <Arguments>--rnn --batch=inputs/rnn/rnn_inference --cfg=f32</Arguments>
     <Description>Harness: Recurrent Neural Network Inference - Data Type: f32</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/mkl-dnn-1.3.1</Test>
-    <Arguments>--rnn --batch=inputs/rnn/rnn_inference --cfg=u8s8f32</Arguments>
-    <Description>Harness: Recurrent Neural Network Inference - Data Type: u8s8f32</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/mkl-dnn-1.3.1</Test>
-    <Arguments>--rnn --batch=inputs/rnn/rnn_inference --cfg=bf16bf16bf16</Arguments>
-    <Description>Harness: Recurrent Neural Network Inference - Data Type: bf16bf16bf16</Description>
   </Execute>
 </PhoronixTestSuite>
