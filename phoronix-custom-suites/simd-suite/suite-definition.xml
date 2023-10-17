@@ -1,0 +1,590 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.4-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>simd-suite</Title>
+    <Version>1.0.0</Version>
+    <TestType>Other</TestType>
+    <Description>A test suite to emphasize simd operations</Description>
+    <Maintainer>Shane McKee</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/opencv-1.3.0</Test>
+    <Arguments>dnn</Arguments>
+    <Description>Test: DNN - Deep Neural Network</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/opencv-1.3.0</Test>
+    <Arguments>features2d</Arguments>
+    <Description>Test: Features 2D</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/opencv-1.3.0</Test>
+    <Arguments>objdetect</Arguments>
+    <Description>Test: Object Detection</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/opencv-1.3.0</Test>
+    <Arguments>core</Arguments>
+    <Description>Test: Core</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/opencv-1.3.0</Test>
+    <Arguments>gapi</Arguments>
+    <Description>Test: Graph API</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/opencv-1.3.0</Test>
+    <Arguments>imgproc</Arguments>
+    <Description>Test: Image Processing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/opencv-1.3.0</Test>
+    <Arguments>stitching</Arguments>
+    <Description>Test: Stitching</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/opencv-1.3.0</Test>
+    <Arguments>video</Arguments>
+    <Description>Test: Video</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/rnnoise-1.0.2</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/mnn-2.1.0</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/encode-flac-1.8.1</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/encode-mp3-1.7.4</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/encode-opus-1.4.0</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/encode-wavpack-1.4.1</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/svt-av1-2.10.0</Test>
+    <Arguments>--preset 13 -i Bosphorus_1920x1080_120fps_420_8bit_YUV.yuv -w 1920 -h 1080</Arguments>
+    <Description>Encoder Mode: Preset 13 - Input: Bosphorus 1080p</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/svt-av1-2.10.0</Test>
+    <Arguments>--preset 13 -i Bosphorus_3840x2160.y4m -w 3840 -h 2160</Arguments>
+    <Description>Encoder Mode: Preset 13 - Input: Bosphorus 4K</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/svt-av1-2.10.0</Test>
+    <Arguments>--preset 12 -i Bosphorus_1920x1080_120fps_420_8bit_YUV.yuv -w 1920 -h 1080</Arguments>
+    <Description>Encoder Mode: Preset 12 - Input: Bosphorus 1080p</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/svt-av1-2.10.0</Test>
+    <Arguments>--preset 12 -i Bosphorus_3840x2160.y4m -w 3840 -h 2160</Arguments>
+    <Description>Encoder Mode: Preset 12 - Input: Bosphorus 4K</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/svt-av1-2.10.0</Test>
+    <Arguments>--preset 8 -i Bosphorus_1920x1080_120fps_420_8bit_YUV.yuv -w 1920 -h 1080</Arguments>
+    <Description>Encoder Mode: Preset 8 - Input: Bosphorus 1080p</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/svt-av1-2.10.0</Test>
+    <Arguments>--preset 8 -i Bosphorus_3840x2160.y4m -w 3840 -h 2160</Arguments>
+    <Description>Encoder Mode: Preset 8 - Input: Bosphorus 4K</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/svt-av1-2.10.0</Test>
+    <Arguments>--preset 4 -n 160 -i Bosphorus_1920x1080_120fps_420_8bit_YUV.yuv -w 1920 -h 1080</Arguments>
+    <Description>Encoder Mode: Preset 4 - Input: Bosphorus 1080p</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/svt-av1-2.10.0</Test>
+    <Arguments>--preset 4 -n 160 -i Bosphorus_3840x2160.y4m -w 3840 -h 2160</Arguments>
+    <Description>Encoder Mode: Preset 4 - Input: Bosphorus 4K</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/svt-hevc-1.2.1</Test>
+    <Arguments>-encMode 1 -i Bosphorus_1920x1080_120fps_420_8bit_YUV.yuv -w 1920 -h 1080</Arguments>
+    <Description>Tuning: 1 - Input: Bosphorus 1080p</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/svt-hevc-1.2.1</Test>
+    <Arguments>-encMode 1 -i Bosphorus_3840x2160.y4m -w 3840 -h 2160</Arguments>
+    <Description>Tuning: 1 - Input: Bosphorus 4K</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/svt-hevc-1.2.1</Test>
+    <Arguments>-encMode 7 -i Bosphorus_1920x1080_120fps_420_8bit_YUV.yuv -w 1920 -h 1080</Arguments>
+    <Description>Tuning: 7 - Input: Bosphorus 1080p</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/svt-hevc-1.2.1</Test>
+    <Arguments>-encMode 7 -i Bosphorus_3840x2160.y4m -w 3840 -h 2160</Arguments>
+    <Description>Tuning: 7 - Input: Bosphorus 4K</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/svt-hevc-1.2.1</Test>
+    <Arguments>-encMode 10 -i Bosphorus_1920x1080_120fps_420_8bit_YUV.yuv -w 1920 -h 1080</Arguments>
+    <Description>Tuning: 10 - Input: Bosphorus 1080p</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/svt-hevc-1.2.1</Test>
+    <Arguments>-encMode 10 -i Bosphorus_3840x2160.y4m -w 3840 -h 2160</Arguments>
+    <Description>Tuning: 10 - Input: Bosphorus 4K</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/svt-vp9-1.3.1</Test>
+    <Arguments>-tune 0 -i Bosphorus_1920x1080_120fps_420_8bit_YUV.yuv -w 1920 -h 1080</Arguments>
+    <Description>Tuning: Visual Quality Optimized - Input: Bosphorus 1080p</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/svt-vp9-1.3.1</Test>
+    <Arguments>-tune 0 -i Bosphorus_3840x2160.y4m -w 3840 -h 2160</Arguments>
+    <Description>Tuning: Visual Quality Optimized - Input: Bosphorus 4K</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/svt-vp9-1.3.1</Test>
+    <Arguments>-tune 1 -i Bosphorus_1920x1080_120fps_420_8bit_YUV.yuv -w 1920 -h 1080</Arguments>
+    <Description>Tuning: PSNR/SSIM Optimized - Input: Bosphorus 1080p</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/svt-vp9-1.3.1</Test>
+    <Arguments>-tune 1 -i Bosphorus_3840x2160.y4m -w 3840 -h 2160</Arguments>
+    <Description>Tuning: PSNR/SSIM Optimized - Input: Bosphorus 4K</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/svt-vp9-1.3.1</Test>
+    <Arguments>-tune 2 -i Bosphorus_1920x1080_120fps_420_8bit_YUV.yuv -w 1920 -h 1080</Arguments>
+    <Description>Tuning: VMAF Optimized - Input: Bosphorus 1080p</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/svt-vp9-1.3.1</Test>
+    <Arguments>-tune 2 -i Bosphorus_3840x2160.y4m -w 3840 -h 2160</Arguments>
+    <Description>Tuning: VMAF Optimized - Input: Bosphorus 4K</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/vpxenc-3.2.0</Test>
+    <Arguments>--cpu-used=5 ~/Bosphorus_1920x1080_120fps_420_8bit_YUV.yuv --width=1920 --height=1080</Arguments>
+    <Description>Speed: Speed 5 - Input: Bosphorus 1080p</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/vpxenc-3.2.0</Test>
+    <Arguments>--cpu-used=5 ~/Bosphorus_3840x2160.y4m --width=3840 --height=2160</Arguments>
+    <Description>Speed: Speed 5 - Input: Bosphorus 4K</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/vpxenc-3.2.0</Test>
+    <Arguments>--cpu-used=0 ~/Bosphorus_1920x1080_120fps_420_8bit_YUV.yuv --width=1920 --height=1080</Arguments>
+    <Description>Speed: Speed 0 - Input: Bosphorus 1080p</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/vpxenc-3.2.0</Test>
+    <Arguments>--cpu-used=0 ~/Bosphorus_3840x2160.y4m --width=3840 --height=2160</Arguments>
+    <Description>Speed: Speed 0 - Input: Bosphorus 4K</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/x264-2.7.0</Test>
+    <Arguments>Bosphorus_1920x1080_120fps_420_8bit_YUV.y4m</Arguments>
+    <Description>Video Input: Bosphorus 1080p</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/x264-2.7.0</Test>
+    <Arguments>Bosphorus_3840x2160.y4m</Arguments>
+    <Description>Video Input: Bosphorus 4K</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/x265-1.3.0</Test>
+    <Arguments>Bosphorus_1920x1080_120fps_420_8bit_YUV.y4m</Arguments>
+    <Description>Video Input: Bosphorus 1080p</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/x265-1.3.0</Test>
+    <Arguments>Bosphorus_3840x2160.y4m</Arguments>
+    <Description>Video Input: Bosphorus 4K</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/vvenc-1.9.1</Test>
+    <Arguments>-i Bosphorus_1920x1080_120fps_420_8bit_YUV.y4m --preset fast</Arguments>
+    <Description>Video Input: Bosphorus 1080p - Video Preset: Fast</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/vvenc-1.9.1</Test>
+    <Arguments>-i Bosphorus_1920x1080_120fps_420_8bit_YUV.y4m --preset faster</Arguments>
+    <Description>Video Input: Bosphorus 1080p - Video Preset: Faster</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/vvenc-1.9.1</Test>
+    <Arguments>-i Bosphorus_3840x2160.y4m --preset fast</Arguments>
+    <Description>Video Input: Bosphorus 4K - Video Preset: Fast</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/vvenc-1.9.1</Test>
+    <Arguments>-i Bosphorus_3840x2160.y4m --preset faster</Arguments>
+    <Description>Video Input: Bosphorus 4K - Video Preset: Faster</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/n-queens-1.2.1</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/mocassin-1.1.0</Test>
+    <Arguments>dust/2D/tau100.0</Arguments>
+    <Description>Input: Dust 2D tau100.0</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/mocassin-1.1.0</Test>
+    <Arguments>gas/HII40</Arguments>
+    <Description>Input: Gas HII40</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/viennacl-1.1.0</Test>
+    <Arguments>dense_blas-bench-opencl</Arguments>
+    <Description>Test: OpenCL BLAS</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/viennacl-1.1.0</Test>
+    <Arguments>dense_blas-bench-cpu</Arguments>
+    <Description>Test: CPU BLAS</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/xsbench-1.0.0</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/simdjson-2.0.1</Test>
+    <Arguments>partial_tweets</Arguments>
+    <Description>Throughput Test: PartialTweets</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/simdjson-2.0.1</Test>
+    <Arguments>large_random</Arguments>
+    <Description>Throughput Test: LargeRandom</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/simdjson-2.0.1</Test>
+    <Arguments>kostya</Arguments>
+    <Description>Throughput Test: Kostya</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/simdjson-2.0.1</Test>
+    <Arguments>distinct_user_id</Arguments>
+    <Description>Throughput Test: DistinctUserID</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/simdjson-2.0.1</Test>
+    <Arguments>top_tweet</Arguments>
+    <Description>Throughput Test: TopTweet</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pennant-1.1.0</Test>
+    <Arguments>leblancbig/leblancbig.pnt</Arguments>
+    <Description>Test: leblancbig</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pennant-1.1.0</Test>
+    <Arguments>sedovbig/sedovbig.pnt</Arguments>
+    <Description>Test: sedovbig</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/intel-mpi-1.0.1</Test>
+    <Arguments>IMB-MPI1 PingPong</Arguments>
+    <Description>Test: IMB-MPI1 PingPong</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/intel-mpi-1.0.1</Test>
+    <Arguments>IMB-MPI1 Sendrecv</Arguments>
+    <Description>Test: IMB-MPI1 Sendrecv</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/intel-mpi-1.0.1</Test>
+    <Arguments>IMB-MPI1 Exchange</Arguments>
+    <Description>Test: IMB-MPI1 Exchange</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/intel-mpi-1.0.1</Test>
+    <Arguments>IMB-P2P PingPong</Arguments>
+    <Description>Test: IMB-P2P PingPong</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/sqlite-2.2.0</Test>
+    <Arguments>1</Arguments>
+    <Description>Threads / Copies: 1</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/sqlite-2.2.0</Test>
+    <Arguments>2</Arguments>
+    <Description>Threads / Copies: 2</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/sqlite-2.2.0</Test>
+    <Arguments>4</Arguments>
+    <Description>Threads / Copies: 4</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/sqlite-2.2.0</Test>
+    <Arguments>8</Arguments>
+    <Description>Threads / Copies: 8</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/sqlite-2.2.0</Test>
+    <Arguments>16</Arguments>
+    <Description>Threads / Copies: 16</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/sqlite-2.2.0</Test>
+    <Arguments>20</Arguments>
+    <Description>Threads / Copies: 20</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/openssl-3.1.0</Test>
+    <Arguments>rsa4096</Arguments>
+    <Description>Algorithm: RSA4096</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/openssl-3.1.0</Test>
+    <Arguments>sha256</Arguments>
+    <Description>Algorithm: SHA256</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/openssl-3.1.0</Test>
+    <Arguments>sha512</Arguments>
+    <Description>Algorithm: SHA512</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/openssl-3.1.0</Test>
+    <Arguments>-evp aes-128-gcm</Arguments>
+    <Description>Algorithm: AES-128-GCM</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/openssl-3.1.0</Test>
+    <Arguments>-evp aes-256-gcm</Arguments>
+    <Description>Algorithm: AES-256-GCM</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/openssl-3.1.0</Test>
+    <Arguments>-evp chacha20</Arguments>
+    <Description>Algorithm: ChaCha20</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/openssl-3.1.0</Test>
+    <Arguments>-evp chacha20-poly1305</Arguments>
+    <Description>Algorithm: ChaCha20-Poly1305</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tnn-1.1.0</Test>
+    <Arguments>-dt NAIVE -mp ../benchmark/benchmark-model/densenet.tnnproto</Arguments>
+    <Description>Target: CPU - Model: DenseNet</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tnn-1.1.0</Test>
+    <Arguments>-dt NAIVE -mp ../benchmark/benchmark-model/mobilenet_v2.tnnproto</Arguments>
+    <Description>Target: CPU - Model: MobileNet v2</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tnn-1.1.0</Test>
+    <Arguments>-dt NAIVE -mp ../benchmark/benchmark-model/squeezenet_v1.1.tnnproto</Arguments>
+    <Description>Target: CPU - Model: SqueezeNet v1.1</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/tnn-1.1.0</Test>
+    <Arguments>-dt NAIVE -mp ../benchmark/benchmark-model/shufflenet_v2.tnnproto</Arguments>
+    <Description>Target: CPU - Model: SqueezeNet v2</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/lammps-1.4.0</Test>
+    <Arguments>in.rhodo</Arguments>
+    <Description>Model: Rhodopsin Protein</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/lammps-1.4.0</Test>
+    <Arguments>benchmark_20k_atoms.in</Arguments>
+    <Description>Model: 20k Atoms</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/dav1d-1.14.0</Test>
+    <Arguments>-i summer_nature_1080p.ivf</Arguments>
+    <Description>Video Input: Summer Nature 1080p</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/dav1d-1.14.0</Test>
+    <Arguments>-i summer_nature_4k.ivf</Arguments>
+    <Description>Video Input: Summer Nature 4K</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/dav1d-1.14.0</Test>
+    <Arguments>-i chimera_8b_1080p.ivf</Arguments>
+    <Description>Video Input: Chimera 1080p</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/dav1d-1.14.0</Test>
+    <Arguments>-i chimera_10b_1080p.ivf</Arguments>
+    <Description>Video Input: Chimera 1080p 10-bit</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-ffsll</Arguments>
+    <Description>Benchmark: ffsll</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-ffs</Arguments>
+    <Description>Benchmark: ffs</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-pthread_once</Arguments>
+    <Description>Benchmark: pthread_once</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-tanh</Arguments>
+    <Description>Benchmark: tanh</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-sqrt</Arguments>
+    <Description>Benchmark: sqrt</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-sin</Arguments>
+    <Description>Benchmark: sin</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-cos</Arguments>
+    <Description>Benchmark: cos</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-asinh</Arguments>
+    <Description>Benchmark: asinh</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-atanh</Arguments>
+    <Description>Benchmark: atanh</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-sincos</Arguments>
+    <Description>Benchmark: sincos</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-sinh</Arguments>
+    <Description>Benchmark: sinh</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-modf</Arguments>
+    <Description>Benchmark: modf</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-exp</Arguments>
+    <Description>Benchmark: exp</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-log2</Arguments>
+    <Description>Benchmark: log2</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-pow</Arguments>
+    <Description>Benchmark: pow</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/mkl-dnn-1.3.1</Test>
+    <Arguments>--deconv --batch=inputs/deconv/deconv_1d --cfg=f32</Arguments>
+    <Description>Harness: Deconvolution Batch deconv_1d - Data Type: f32</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/mkl-dnn-1.3.1</Test>
+    <Arguments>--deconv --batch=inputs/deconv/deconv_1d --cfg=u8s8f32</Arguments>
+    <Description>Harness: Deconvolution Batch deconv_1d - Data Type: u8s8f32</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/mkl-dnn-1.3.1</Test>
+    <Arguments>--deconv --batch=inputs/deconv/deconv_1d --cfg=bf16bf16bf16</Arguments>
+    <Description>Harness: Deconvolution Batch deconv_1d - Data Type: bf16bf16bf16</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/mkl-dnn-1.3.1</Test>
+    <Arguments>--deconv --batch=inputs/deconv/deconv_3d --cfg=f32</Arguments>
+    <Description>Harness: Deconvolution Batch deconv_3d - Data Type: f32</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/mkl-dnn-1.3.1</Test>
+    <Arguments>--deconv --batch=inputs/deconv/deconv_3d --cfg=u8s8f32</Arguments>
+    <Description>Harness: Deconvolution Batch deconv_3d - Data Type: u8s8f32</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/mkl-dnn-1.3.1</Test>
+    <Arguments>--deconv --batch=inputs/deconv/deconv_3d --cfg=bf16bf16bf16</Arguments>
+    <Description>Harness: Deconvolution Batch deconv_3d - Data Type: bf16bf16bf16</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/mkl-dnn-1.3.1</Test>
+    <Arguments>--ip --batch=inputs/ip/ip_1d --cfg=f32</Arguments>
+    <Description>Harness: IP Batch 1D - Data Type: f32</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/mkl-dnn-1.3.1</Test>
+    <Arguments>--ip --batch=inputs/ip/ip_1d --cfg=u8s8f32</Arguments>
+    <Description>Harness: IP Batch 1D - Data Type: u8s8f32</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/mkl-dnn-1.3.1</Test>
+    <Arguments>--ip --batch=inputs/ip/ip_1d --cfg=bf16bf16bf16</Arguments>
+    <Description>Harness: IP Batch 1D - Data Type: bf16bf16bf16</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/mkl-dnn-1.3.1</Test>
+    <Arguments>--ip --batch=inputs/ip/ip_all --cfg=f32</Arguments>
+    <Description>Harness: IP Batch All - Data Type: f32</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/mkl-dnn-1.3.1</Test>
+    <Arguments>--ip --batch=inputs/ip/ip_all --cfg=u8s8f32</Arguments>
+    <Description>Harness: IP Batch All - Data Type: u8s8f32</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/mkl-dnn-1.3.1</Test>
+    <Arguments>--ip --batch=inputs/ip/ip_all --cfg=bf16bf16bf16</Arguments>
+    <Description>Harness: IP Batch All - Data Type: bf16bf16bf16</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/mkl-dnn-1.3.1</Test>
+    <Arguments>--rnn --batch=inputs/rnn/rnn_training --cfg=f32</Arguments>
+    <Description>Harness: Recurrent Neural Network Training - Data Type: f32</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/mkl-dnn-1.3.1</Test>
+    <Arguments>--rnn --batch=inputs/rnn/rnn_training --cfg=u8s8f32</Arguments>
+    <Description>Harness: Recurrent Neural Network Training - Data Type: u8s8f32</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/mkl-dnn-1.3.1</Test>
+    <Arguments>--rnn --batch=inputs/rnn/rnn_training --cfg=bf16bf16bf16</Arguments>
+    <Description>Harness: Recurrent Neural Network Training - Data Type: bf16bf16bf16</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/mkl-dnn-1.3.1</Test>
+    <Arguments>--rnn --batch=inputs/rnn/rnn_inference --cfg=f32</Arguments>
+    <Description>Harness: Recurrent Neural Network Inference - Data Type: f32</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/mkl-dnn-1.3.1</Test>
+    <Arguments>--rnn --batch=inputs/rnn/rnn_inference --cfg=u8s8f32</Arguments>
+    <Description>Harness: Recurrent Neural Network Inference - Data Type: u8s8f32</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/mkl-dnn-1.3.1</Test>
+    <Arguments>--rnn --batch=inputs/rnn/rnn_inference --cfg=bf16bf16bf16</Arguments>
+    <Description>Harness: Recurrent Neural Network Inference - Data Type: bf16bf16bf16</Description>
+  </Execute>
+</PhoronixTestSuite>
