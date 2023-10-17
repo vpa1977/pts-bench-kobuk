@@ -9,6 +9,7 @@ A layer on top of PTS automation which simplifies the PTS install + run process 
 ## Usage
 Current supported test suites:
 * short
+* simd-suite
 
 For running on a device with a display connected, just run:\
 `$ ./<test suite>/run.sh`
