@@ -27,4 +27,4 @@ export TEST_RESULTS_DESCRIPTION='A shorter version of a test suite which avoids\
 
 PTS_SILENT_MODE=1 $PTS_BIN batch-benchmark short
 
-phoronix-test-suite result-file-raw-to-csv $TEST_RESULTS_NAME
+$PTS_BIN result-file-raw-to-csv $TEST_RESULTS_NAME
