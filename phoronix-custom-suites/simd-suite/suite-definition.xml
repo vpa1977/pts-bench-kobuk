@@ -241,11 +241,6 @@
   </Execute>
   <Execute>
     <Test>pts/viennacl-1.1.0</Test>
-    <Arguments>dense_blas-bench-opencl</Arguments>
-    <Description>Test: OpenCL BLAS</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/viennacl-1.1.0</Test>
     <Arguments>dense_blas-bench-cpu</Arguments>
     <Description>Test: CPU BLAS</Description>
   </Execute>
