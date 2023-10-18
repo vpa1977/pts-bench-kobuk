@@ -29,6 +29,6 @@ export QMAKE_CFLAGS=$CFLAGS
 
 export TEST_RESULTS_DESCRIPTION='A test suite which avoids Python wheels or prebuilt bins. Builds are optimized for x86-64-v3'
 
-PTS_SILENT_MODE=1 phoronix-test-suite batch-benchmark short
+PTS_SILENT_MODE=1 $PTS_BIN batch-benchmark short
 
 phoronix-test-suite result-file-raw-to-csv $TEST_RESULTS_NAME
