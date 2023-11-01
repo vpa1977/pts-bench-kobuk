@@ -24,6 +24,9 @@ export CFLAGS='-march=x86-64-v3'
 export CXXFLAGS='-march=x86-64-v3'
 export FFLAGS='-march=x86-64-v3'
 
+# Required to avoid some tests from building with extra flags
+export CFLAGS_OVERRIDE=$CFLAGS
+
 export QMAKE_CXXFLAGS=$CXXFLAGS
 export QMAKE_CFLAGS=$CFLAGS
 

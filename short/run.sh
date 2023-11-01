@@ -20,6 +20,17 @@ fi
 tar xvf $SCRIPT_DIR/../short-dl-cache.tar.xz
 mv download-cache $HOME/.phoronix-test-suite
 
+# PTS grabs these flags in pts_test_installer.php
+export CFLAGS='-Wall'
+export CXXFLAGS='-Wall'
+export FFLAGS='-Wall'
+
+# Required to avoid some tests from building with extra flags
+export CFLAGS_OVERRIDE=$CFLAGS
+
+export QMAKE_CXXFLAGS=$CXXFLAGS
+export QMAKE_CFLAGS=$CFLAGS
+
 export TEST_RESULTS_IDENTIFIER=short-id 
 export TEST_RESULTS_NAME=short-name 
 export TEST_RESULTS_DESCRIPTION='A shorter version of a test suite which avoids\

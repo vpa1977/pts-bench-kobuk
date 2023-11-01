@@ -11,6 +11,17 @@ PTS_BIN=$SCRIPT_DIR/../pts-source/phoronix-test-suite
 # make sure we don't re-use tests that were built with different flags
 rm -rf $HOME/.phoronix-test-suite/installed-tests/
 
+# PTS grabs these flags in pts_test_installer.php
+export CFLAGS='-Wall'
+export CXXFLAGS='-Wall'
+export FFLAGS='-Wall'
+
+# Required to avoid some tests from building with extra flags
+export CFLAGS_OVERRIDE=$CFLAGS
+
+export QMAKE_CXXFLAGS=$CXXFLAGS
+export QMAKE_CFLAGS=$CFLAGS
+
 export TEST_RESULTS_IDENTIFIER=simd-suite-id 
 export TEST_RESULTS_NAME=simd-suite-name 
 export TEST_RESULTS_DESCRIPTION='Results for a test suite which targets more SIMD-heavy\ 
