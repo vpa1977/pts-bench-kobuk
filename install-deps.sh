@@ -11,20 +11,9 @@ sudo rm /usr/share/phoronix-test-suite/pts-core/objects/pts_openbenchmarking_upl
 # Running any PTS command creates ~/.phoronix-test-suite
 ./pts-source/phoronix-test-suite list-available-tests
 
+# Copy our custom test suites to the Phoronix Test Suite dir
 cp -r phoronix-custom-suites/* $HOME/.phoronix-test-suite/test-suites/local/
 cp ./config/user-config.xml $HOME/.phoronix-test-suite/
 
-# A bit of a hack to fix the gl-vs-vk test
-sudo ln -s /usr/lib/x86_64-linux-gnu/libGLEW.so /usr/lib/x86_64-linux-gnu/libGLEW.so.1.13
-
 # Enables the mixbench test
 sudo ln -s /usr/lib/x86_64-linux-gnu/libOpenCL.so.1 /usr/lib/libOpenCL.so
-
-# This checks if a device has a display and installs a dummy display if not
-if [ -z $DISPLAY ]; then
-    sudo apt install -y xserver-xorg-video-dummy
-    sudo Xorg --configure
-    mv /root/xorg.conf.new /etc/X11/xorg.conf
-    echo 'Configured a headless X server for graphics tests'
-    echo 'Please run "export DISPLAY=:0"'
-fi
