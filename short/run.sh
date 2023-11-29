@@ -31,8 +31,9 @@ export CFLAGS_OVERRIDE=$CFLAGS
 export QMAKE_CXXFLAGS=$CXXFLAGS
 export QMAKE_CFLAGS=$CFLAGS
 
-export TEST_RESULTS_IDENTIFIER=short-id 
-export TEST_RESULTS_NAME=short-name 
+host=`hostname`
+export TEST_RESULTS_IDENTIFIER=$host-short-id
+export TEST_RESULTS_NAME=$host-short-name
 export TEST_RESULTS_DESCRIPTION='A shorter version of a test suite which avoids\
        	Python wheels or prebuilt bins'
 

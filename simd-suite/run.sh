@@ -22,8 +22,9 @@ export CFLAGS_OVERRIDE=$CFLAGS
 export QMAKE_CXXFLAGS=$CXXFLAGS
 export QMAKE_CFLAGS=$CFLAGS
 
-export TEST_RESULTS_IDENTIFIER=simd-suite-id 
-export TEST_RESULTS_NAME=simd-suite-name 
+host=`hostname`
+export TEST_RESULTS_IDENTIFIER=$host-simd-suite-id
+export TEST_RESULTS_NAME=$host-simd-suite-name
 export TEST_RESULTS_DESCRIPTION='Results for a test suite which targets more SIMD-heavy\ 
 	benchmarks.'
 

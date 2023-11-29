@@ -16,9 +16,6 @@ fi
 tar xvf $SCRIPT_DIR/../short-dl-cache.tar.xz
 mv download-cache $HOME/.phoronix-test-suite
 
-export TEST_RESULTS_IDENTIFIER=short-v3-id 
-export TEST_RESULTS_NAME=short-v3-name 
-
 # PTS grabs these flags in pts_test_installer.php
 export CFLAGS='-march=x86-64-v3'
 export CXXFLAGS='-march=x86-64-v3'
@@ -30,6 +27,9 @@ export CFLAGS_OVERRIDE=$CFLAGS
 export QMAKE_CXXFLAGS=$CXXFLAGS
 export QMAKE_CFLAGS=$CFLAGS
 
+host=`hostname`
+export TEST_RESULTS_IDENTIFIER=$host-short-v3-id
+export TEST_RESULTS_NAME=$host-short-v3-name
 export TEST_RESULTS_DESCRIPTION='A test suite which avoids Python wheels or prebuilt bins. Builds are optimized for x86-64-v3'
 
 PTS_SILENT_MODE=1 $PTS_BIN batch-benchmark short
