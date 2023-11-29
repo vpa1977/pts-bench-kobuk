@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.4-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>test</Title>
+    <Version>1.0.0</Version>
+    <TestType>Other</TestType>
+    <Description>Test Suite</Description>
+    <Maintainer>Shane McKee</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-log2</Arguments>
+    <Description>Benchmark: log2</Description>
+  </Execute>
+</PhoronixTestSuite>
