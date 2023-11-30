@@ -7,6 +7,15 @@ PTS_BIN=$SCRIPT_DIR/../pts-source/phoronix-test-suite
 # make sure we don't re-use tests that were built with different flags
 rm -rf $HOME/.phoronix-test-suite/installed-tests/
 
+# get the download cache for the simd test suite
+if [ ! -f $SCRIPT_DIR/../simd-suite-dl-cache.tar.xz ]; then
+    echo "Download cache not found. Downloading..."
+    wget https://people.canonical.com/~mckeesh/simd-suite-dl-cache.tar.xz
+fi
+
+tar xvf $SCRIPT_DIR/../simd-suite-dl-cache.tar.xz
+mv download-cache $HOME/.phoronix-test-suite
+
 # PTS grabs these flags in pts_test_installer.php
 export CFLAGS='-march=x86-64-v3'
 export CXXFLAGS='-march=x86-64-v3'
