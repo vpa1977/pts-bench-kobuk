@@ -522,11 +522,6 @@
     <Description>Count: 32 - Type: Process</Description>
   </Execute>
   <Execute>
-    <Test>pts/hackbench-1.0.0</Test>
-    <Arguments>32 thread</Arguments>
-    <Description>Count: 32 - Type: Thread</Description>
-  </Execute>
-  <Execute>
     <Test>pts/himeno-1.3.0</Test>
   </Execute>
   <Execute>
@@ -769,11 +764,6 @@
     <Test>pts/toybrot-1.2.0</Test>
     <Arguments>raymarched/STDTHREADS/rmSTD_THREADS</Arguments>
     <Description>Implementation: C++ Threads</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/toybrot-1.2.0</Test>
-    <Arguments>raymarched/TBB/rmTBB</Arguments>
-    <Description>Implementation: TBB</Description>
   </Execute>
   <Execute>
     <Test>pts/tscp-1.2.2</Test>
