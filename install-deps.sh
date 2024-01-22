@@ -4,8 +4,10 @@ sudo apt install -y php-cli php-xml build-essential xterm p7zip-full nasm yasm l
 
 # Installing a non-optimized version for the dav1d benchmark
 # Shouldn't be an issue since a build tool shouldn't be involved in the measurement
-if ![-f meson_1.0.1-5ubuntu1_all.deb];
+if [-f meson_1.0.1-5ubuntu1_all.deb];
 then
+    echo "File meson_1.0.1-5ubuntu1_all.deb found, not resinstalling"
+else
     wget https://people.canonical.com/~mckeesh/meson_1.0.1-5ubuntu1_all.deb
 fi
 sudo dpkg -i meson_1.0.1-5ubuntu1_all.deb
