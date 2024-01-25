@@ -23,6 +23,6 @@ export TEST_RESULTS_IDENTIFIER=$host-testsuite-v3-id
 export TEST_RESULTS_NAME=$host-testsuite-v3-name
 export TEST_RESULTS_DESCRIPTION='A short test just to make sure the pipeline is intact. Builds are optimized for x86-64-v3'
 
-PTS_SILENT_MODE=1 $PTS_BIN batch-benchmark short
+PTS_SILENT_MODE=1 $PTS_BIN batch-benchmark testsuite
 
 $PTS_BIN result-file-raw-to-csv $TEST_RESULTS_NAME
