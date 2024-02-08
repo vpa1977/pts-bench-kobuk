@@ -28,6 +28,6 @@ export TEST_RESULTS_IDENTIFIER=$host-intel-opt-id
 export TEST_RESULTS_NAME=$host-intel-opt-name
 export TEST_RESULTS_DESCRIPTION='A test suite'
 
-PTS_SILENT_MODE=1 $PTS_BIN batch-benchmark pts-system
+sudo PTS_SILENT_MODE=1 $PTS_BIN batch-benchmark pts-system
 
 #$PTS_BIN result-file-raw-to-csv $TEST_RESULTS_NAME
