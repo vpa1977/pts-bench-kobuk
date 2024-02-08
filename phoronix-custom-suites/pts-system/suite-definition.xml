@@ -53,10 +53,6 @@
 <Description>Blender System </Description>
 </Execute>
 <Execute>
-<Test>system/cephfs-rados</Test>
-<Description>CephFS RADOS Benchmark System </Description>
-</Execute>
-<Execute>
 <Test>system/clpeak</Test>
 <Description>clpeak System </Description>
 </Execute>
@@ -79,10 +75,6 @@
 <Execute>
 <Test>system/darktable</Test>
 <Description>Darktable System </Description>
-</Execute>
-<Execute>
-<Test>system/ethminer</Test>
-<Description>Ethereum Ethminer System </Description>
 </Execute>
 <Execute>
 <Test>system/gegl</Test>
@@ -139,10 +131,6 @@
 <Execute>
 <Test>system/openssl</Test>
 <Description>OpenSSL Processor </Description>
-</Execute>
-<Execute>
-<Test>system/opm</Test>
-<Description>Open Porous Media Processor </Description>
 </Execute>
 <Execute>
 <Test>system/rawtherapee</Test>
