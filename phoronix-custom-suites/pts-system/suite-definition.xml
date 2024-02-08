@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.4-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>pts-system</Title>
+    <Version>1.0.0</Version>
+    <TestType>Other</TestType>
+    <Description>A suite to explore gcc flags effects on the system performance</Description>
+    <Maintainer>Vladimir Petko</Maintainer>
+  </SuiteInformation>
+<Execute>
+<Test>pts/system-decompress-bzip2</Test>
+<Description>System BZIP2 Decompression Processor </Description>
+</Execute>
+<Execute>
+<Test>pts/system-decompress-gzip</Test>
+<Description>System GZIP Decompression Processor </Description>
+</Execute>
+<Execute>
+<Test>pts/system-decompress-tiff</Test>
+<Description>System Libtiff Decompression Processor </Description>
+</Execute>
+<Execute>
+<Test>pts/system-decompress-xz</Test>
+<Description>System XZ Decompression Processor </Description>
+</Execute>
+<Execute>
+<Test>pts/system-libjpeg</Test>
+<Description>System JPEG Library Decode Processor </Description>
+</Execute>
+<Execute>
+<Test>pts/system-libxml2</Test>
+<Description>System Libxml2 Parsing Processor </Description>
+</Execute>
+<Execute>
+<Test>pts/systemd-boot-kernel</Test>
+<Description>Systemd Kernel Boot Time Processor </Description>
+</Execute>
+<Execute>
+<Test>pts/systemd-boot-total</Test>
+<Description>Systemd Total Boot Time System </Description>
+</Execute>
+<Execute>
+<Test>pts/systemd-boot-userspace</Test>
+<Description>Systemd Userspace Boot Time Processor </Description>
+</Execute>
+<Execute>
+<Test>system/apache</Test>
+<Description>Apache Benchmark </Description>
+</Execute>
+<Execute>
+<Test>system/blender</Test>
+<Description>Blender System </Description>
+</Execute>
+<Execute>
+<Test>system/cephfs-rados</Test>
+<Description>CephFS RADOS Benchmark System </Description>
+</Execute>
+<Execute>
+<Test>system/clpeak</Test>
+<Description>clpeak System </Description>
+</Execute>
+<Execute>
+<Test>system/compress-lzma</Test>
+<Description>LZMA Compression </Description>
+</Execute>
+<Execute>
+<Test>system/compress-pbzip2</Test>
+<Description>PBZIP2 Compression </Description>
+</Execute>
+<Execute>
+<Test>system/compress-zstd</Test>
+<Description>Zstd Compression Processor </Description>
+</Execute>
+<Execute>
+<Test>system/cryptsetup</Test>
+<Description>Cryptsetup System </Description>
+</Execute>
+<Execute>
+<Test>system/darktable</Test>
+<Description>Darktable System </Description>
+</Execute>
+<Execute>
+<Test>system/ethminer</Test>
+<Description>Ethereum Ethminer System </Description>
+</Execute>
+<Execute>
+<Test>system/gegl</Test>
+<Description>GEGL System </Description>
+</Execute>
+<Execute>
+<Test>system/gimp</Test>
+<Description>GIMP System </Description>
+</Execute>
+<Execute>
+<Test>system/gmic</Test>
+<Description>G'MIC System </Description>
+</Execute>
+<Execute>
+<Test>system/gnupg</Test>
+<Description>GnuPG Processor </Description>
+</Execute>
+<Execute>
+<Test>system/gnuradio</Test>
+<Description>GNU Radio Processor </Description>
+</Execute>
+<Execute>
+<Test>system/hugin</Test>
+<Description>Hugin System </Description>
+</Execute>
+<Execute>
+<Test>system/inkscape</Test>
+<Description>Inkscape System </Description>
+</Execute>
+<Execute>
+<Test>system/libreoffice</Test>
+<Description>LibreOffice System </Description>
+</Execute>
+<Execute>
+<Test>system/mpv</Test>
+<Description>MPV System </Description>
+</Execute>
+<Execute>
+<Test>system/nginx</Test>
+<Description>Nginx System </Description>
+</Execute>
+<Execute>
+<Test>system/ocrmypdf</Test>
+<Description>OCRMyPDF System </Description>
+</Execute>
+<Execute>
+<Test>system/octave-benchmark</Test>
+<Description>GNU Octave Benchmark System </Description>
+</Execute>
+<Execute>
+<Test>system/openscad</Test>
+<Description>OpenSCAD System </Description>
+</Execute>
+<Execute>
+<Test>system/openssl</Test>
+<Description>OpenSSL Processor </Description>
+</Execute>
+<Execute>
+<Test>system/opm</Test>
+<Description>Open Porous Media Processor </Description>
+</Execute>
+<Execute>
+<Test>system/rawtherapee</Test>
+<Description>RawTherapee System </Description>
+</Execute>
+<Execute>
+<Test>system/redis</Test>
+<Description>Redis Memtier / Redis Benchmark System </Description>
+</Execute>
+<Execute>
+<Test>system/rsvg</Test>
+<Description>librsvg System </Description>
+</Execute>
+<Execute>
+<Test>system/selenium</Test>
+<Description>Selenium System </Description>
+</Execute>
+<Execute>
+<Test>system/selenium-top-sites</Test>
+<Description>Time To Load + View Popular Websites System </Description>
+</Execute>
+<Execute>
+<Test>system/sqlite</Test>
+<Description>SQLite </Description>
+</Execute>
+<Execute>
+<Test>system/tesseract-ocr</Test>
+<Description>Tesseract OCR System </Description>
+</Execute>
+</PhoronixTestSuite>

@@ -1,4 +1,5 @@
 #!/bin/bash
+set -ex
 
 unset CFLAGS
 unset CXXFLAGS
@@ -23,10 +24,10 @@ export QMAKE_CXXFLAGS=$CXXFLAGS
 export QMAKE_CFLAGS=$CFLAGS
 
 host=`hostname`
-export TEST_RESULTS_IDENTIFIER=$host-intel-opt-id 
-export TEST_RESULTS_NAME=$host-intel-opt-name 
+export TEST_RESULTS_IDENTIFIER=$host-intel-opt-id
+export TEST_RESULTS_NAME=$host-intel-opt-name
 export TEST_RESULTS_DESCRIPTION='A test suite'
 
-PTS_SILENT_MODE=1 $PTS_BIN batch-benchmark intel-optimization
+PTS_SILENT_MODE=1 $PTS_BIN batch-benchmark pts-system
 
-$PTS_BIN result-file-raw-to-csv $TEST_RESULTS_NAME
+#$PTS_BIN result-file-raw-to-csv $TEST_RESULTS_NAME
