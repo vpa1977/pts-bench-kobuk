@@ -21,6 +21,8 @@ sudo dpkg -i meson_1.0.1-5ubuntu1_all.deb
 ./pts-source/phoronix-test-suite list-available-tests
 
 # Copy our custom test suites to the Phoronix Test Suite dir
+sudo cp -r phoronix-custom-suites/* /var/lib/phoronix-test-suite/test-suites/local
+
 cp -r phoronix-custom-suites/* $HOME/.phoronix-test-suite/test-suites/local/
 cp ./config/user-config.xml $HOME/.phoronix-test-suite/
 
@@ -29,4 +31,4 @@ sudo ln -s /usr/lib/x86_64-linux-gnu/libOpenCL.so.1 /usr/lib/libOpenCL.so
 
 # system-pts dependencies
 sudo apt install libtiff-tools libjpeg-progs libxml2 libxml2-utils blender clpeak pbzip2 cryptsetup gegl gmic gnuradio hugin inkscape \
-    rawtherapee libreoffice tesseract-ocr sqlite3 librsvg2-bin octave openscad ocrmypdf nginx mpv
+    rawtherapee libreoffice tesseract-ocr sqlite3 librsvg2-bin octave openscad ocrmypdf nginx mpv gimp
