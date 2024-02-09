@@ -2,8 +2,9 @@
 
 # downgrade packages
 sudo apt --fix-broken install
-sudo apt install -y --allow-downgrades libc6=2.38-1ubuntu6 libssl3=3.0.10-1ubuntu2 libsndfile1=1.2.2-1 libsqlite3-0=3.42.0-1
-
+sudo apt install -y --allow-downgrades libc6=2.38-1ubuntu6 libssl3=3.0.10-1ubuntu2 libsndfile1=1.2.2-1 libsqlite3-0=3.42.0-1  libsystemd0=253.5-1ubuntu6 libudev1=253.5-1ubuntu6
+sudo apt install -y --allow-downgrades systemd-sysv=253.5-1ubuntu6 systemd=253.5-1ubuntu6 libpam-systemd=253.5-1ubuntu6 libsystemd0=253.5-1ubuntu6 systemd-sysv=253.5-1ubuntu6 polkitd policykit-1 libsystemd-shared=253.5-1ubuntu6
+sudo apt install libudev1=253.5-1ubuntu6
 
 sudo apt install -y php-cli php-xml build-essential xterm p7zip-full nasm yasm libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev freeglut3-dev libssl-dev openssl php-cli php-xml autoconf mesa-utils vulkan-tools unzip apt-file cmake ninja-build gawk bison qtbase5-dev qt5-qmake libfftw3-dev fftw-dev freeglut3-dev python3-pip python3-yaml gfortran libopenmpi-dev openmpi-bin libmpich-dev opencl-headers ocl-icd-libopencl1 clinfo ocl-icd-opencl-dev
 
@@ -33,3 +34,13 @@ sudo ln -s /usr/lib/x86_64-linux-gnu/libOpenCL.so.1 /usr/lib/libOpenCL.so
 sudo apt install libtiff-tools libjpeg-progs libxml2 libxml2-utils blender clpeak pbzip2 cryptsetup gegl gmic gnuradio hugin inkscape \
     rawtherapee libreoffice tesseract-ocr sqlite3 librsvg2-bin octave openscad ocrmypdf nginx mpv gimp \
     lightdm
+
+# disable lightdm shudown
+sudo -u lightdm dbus-launch gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-timeout 0
+sudo -u lightdm dbus-launch gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-battery-timeout 0
+sudo -u lightdm dbus-launch gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type 'nothing'
+sudo -u lightdm dbus-launch gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-battery-type 'nothing'
+sudo -u lightdm dbus-launch gsettings set com.canonical.unity.settings-daemon.plugins.power sleep-inactive-ac-timeout 0
+sudo -u lightdm dbus-launch gsettings set com.canonical.unity.settings-daemon.plugins.power sleep-inactive-battery-timeout 0
+sudo -u lightdm dbus-launch gsettings set com.canonical.unity.settings-daemon.plugins.power sleep-inactive-ac-type 'nothing'
+sudo -u lightdm dbus-launch gsettings set com.canonical.unity.settings-daemon.plugins.power sleep-inactive-battery-type 'nothing'
