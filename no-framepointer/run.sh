@@ -27,6 +27,6 @@ host=`hostname`
 export TEST_RESULTS_IDENTIFIER=$host-intel-opt-id
 export TEST_RESULTS_NAME=$host-intel-opt-name
 export TEST_RESULTS_DESCRIPTION='A test suite'
-DISPLAY=:0 NO_FILE_HASH_CHECKS=1 PTS_SILENT_MODE=1 $PTS_BIN batch-benchmark pts-system
+DISPLAY=:0 NO_FILE_HASH_CHECKS=1 PTS_SILENT_MODE=1 $PTS_BIN batch-benchmark pts-system pts/workstation pts/server-cpu-tests pts/hpc
 
 #$PTS_BIN result-file-raw-to-csv $TEST_RESULTS_NAME
