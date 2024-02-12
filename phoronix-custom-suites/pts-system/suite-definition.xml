@@ -44,10 +44,12 @@
 <Test>pts/systemd-boot-userspace</Test>
 <Description>Systemd Userspace Boot Time Processor </Description>
 </Execute>
+<!-- remove system/apache - uninstallable
 <Execute>
 <Test>system/apache</Test>
 <Description>Apache Benchmark </Description>
 </Execute>
+-->
 <Execute>
 <Test>system/blender</Test>
 <Description>Blender System </Description>
@@ -104,10 +106,12 @@
 <Test>system/inkscape</Test>
 <Description>Inkscape System </Description>
 </Execute>
+<!-- remove libreoffice test - it hangs
 <Execute>
 <Test>system/libreoffice</Test>
 <Description>LibreOffice System </Description>
 </Execute>
+-->
 <Execute>
 <Test>system/mpv</Test>
 <Description>MPV System </Description>
