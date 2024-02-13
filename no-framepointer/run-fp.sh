@@ -22,7 +22,7 @@ PTS_BIN=$SCRIPT_DIR/../pts-source/phoronix-test-suite
 
 #export QMAKE_CXXFLAGS=$CXXFLAGS
 #export QMAKE_CFLAGS=$CFLAGS
-export OMIT_POINTER=
+export OMIT_POINTER=-fno-omit-frame-pointer
 host=`hostname`
 export TEST_RESULTS_IDENTIFIER=$host-fp-opt-id
 export TEST_RESULTS_NAME=$host-fp-opt-name
