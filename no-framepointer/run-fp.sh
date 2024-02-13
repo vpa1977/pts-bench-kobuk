@@ -24,9 +24,9 @@ PTS_BIN=$SCRIPT_DIR/../pts-source/phoronix-test-suite
 #export QMAKE_CFLAGS=$CFLAGS
 export OMIT_POINTER=-fno-omit-frame-pointer
 host=`hostname`
-export TEST_RESULTS_IDENTIFIER=$host-fp-opt-id
-export TEST_RESULTS_NAME=$host-fp-opt-name
-export TEST_RESULTS_DESCRIPTION='fp optimization result'
+export TEST_RESULTS_IDENTIFIER=$host-withfp-opt-id
+export TEST_RESULTS_NAME=$host-withfp-opt-name
+export TEST_RESULTS_DESCRIPTION='fp optimization result - fp enabled'
 DISPLAY=:0 NO_FILE_HASH_CHECKS=1 PTS_SILENT_MODE=1 $PTS_BIN batch-benchmark pts-system pts/workstation pts/server-cpu-tests pts/hpc
 
 #$PTS_BIN result-file-raw-to-csv $TEST_RESULTS_NAME
