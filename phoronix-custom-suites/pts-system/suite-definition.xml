@@ -106,12 +106,10 @@
 <Test>system/inkscape</Test>
 <Description>Inkscape System </Description>
 </Execute>
-<!-- remove libreoffice test - it hangs
 <Execute>
 <Test>system/libreoffice</Test>
 <Description>LibreOffice System </Description>
 </Execute>
--->
 <Execute>
 <Test>system/mpv</Test>
 <Description>MPV System </Description>
