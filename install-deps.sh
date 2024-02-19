@@ -34,7 +34,7 @@ sudo ln -s /usr/lib/x86_64-linux-gnu/libOpenCL.so.1 /usr/lib/libOpenCL.so
 # system-pts dependencies
 sudo apt install libpcre3-dev redis libtiff-tools libjpeg-progs libxml2 libxml2-utils blender clpeak pbzip2 cryptsetup gegl gmic gnuradio hugin inkscape \
     rawtherapee libreoffice tesseract-ocr sqlite3 librsvg2-bin octave openscad ocrmypdf nginx mpv gimp \
-    lightdm dbus-x11 darktable
+    lightdm dbus-x11 darktable flex libelf-dev 
 
 # disable lightdm shudown
 sudo -u lightdm dbus-launch gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-timeout 0
