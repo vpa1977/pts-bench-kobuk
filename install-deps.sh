@@ -45,6 +45,3 @@ sudo -u lightdm dbus-launch gsettings set com.canonical.unity.settings-daemon.pl
 sudo -u lightdm dbus-launch gsettings set com.canonical.unity.settings-daemon.plugins.power sleep-inactive-battery-timeout 0
 sudo -u lightdm dbus-launch gsettings set com.canonical.unity.settings-daemon.plugins.power sleep-inactive-ac-type 'nothing'
 sudo -u lightdm dbus-launch gsettings set com.canonical.unity.settings-daemon.plugins.power sleep-inactive-battery-type 'nothing'
-
-sudo ln -sf `pwd`/g++.sh /usr/bin/g++
-sudo ln -sf `pwd`/gcc.sh /usr/bin/gcc

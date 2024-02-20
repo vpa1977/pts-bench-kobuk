@@ -23,6 +23,16 @@ PTS_BIN=$SCRIPT_DIR/../pts-source/phoronix-test-suite
 #export QMAKE_CXXFLAGS=$CXXFLAGS
 #export QMAKE_CFLAGS=$CFLAGS
 export OMIT_POINTER=-fno-omit-frame-pointer
+# PTS grabs these flags in pts_test_installer.php
+export CFLAGS='-fno-omit-frame-pointer'
+export CXXFLAGS='-fno-omit-frame-pointer'
+export FFLAGS='-fno-omit-frame-pointer'
+
+# Required to avoid some tests from building with extra flags
+export CFLAGS_OVERRIDE=$CFLAGS
+
+export QMAKE_CXXFLAGS=$CXXFLAGS
+export QMAKE_CFLAGS=$CFLAGS
 host=`hostname`
 export TEST_RESULTS_IDENTIFIER=$host-withfp-opt-id
 export TEST_RESULTS_NAME=$host-withfp-opt-name
