@@ -37,6 +37,7 @@ host=`hostname`
 export TEST_RESULTS_IDENTIFIER=$host-withfp-opt-id
 export TEST_RESULTS_NAME=$host-withfp-opt-name
 export TEST_RESULTS_DESCRIPTION='fp optimization result - fp enabled'
-DISPLAY=:0 NO_FILE_HASH_CHECKS=1 PTS_SILENT_MODE=1 $PTS_BIN batch-benchmark pts-system pts/workstation pts/server-cpu-tests pts/hpc
+DISPLAY=:0 NO_FILE_HASH_CHECKS=1 PTS_SILENT_MODE=1 $PTS_BIN finish-run $TEST_RESULTS_IDENTIFIER
+#DISPLAY=:0 NO_FILE_HASH_CHECKS=1 PTS_SILENT_MODE=1 $PTS_BIN batch-benchmark pts-system pts/workstation pts/server-cpu-tests pts/hpc
 
 #$PTS_BIN result-file-raw-to-csv $TEST_RESULTS_NAME
