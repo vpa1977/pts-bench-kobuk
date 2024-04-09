@@ -1,0 +1,17 @@
+job_queue: cractus
+provision_data:
+  distro: custom/nofp-fp-mantic
+output_timeout: 43200
+global_timeout: 43200
+test_data:
+  test_cmds: |
+    ssh $DEVICE_IP sudo apt -y install git
+    ssh $DEVICE_IP git clone --recurse-submodules -b pts-system-test https://github.com/vpa1977/pts-bench-kobuk.git
+    ssh $DEVICE_IP "cd ./pts-bench-kobuk/ && ./install-deps.sh"
+    ssh $DEVICE_IP "cd ./pts-bench-kobuk/ && ./n-framepointer/run-fp.sh"
+    mkdir -p/artifacts/cractus-fp
+    scp -r $DEVICE_IP:/home/ubuntu/.phoronix-test-suite/test-results/ artifacts/cractus-fp
+reserve_data:
+  ssh_keys:
+    - lp:mckeesh
+  timeout: 43200
