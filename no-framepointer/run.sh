@@ -24,10 +24,11 @@ PTS_BIN=$SCRIPT_DIR/../pts-source/phoronix-test-suite
 #export QMAKE_CFLAGS=$CFLAGS
 export OMIT_POINTER=
 host=`hostname`
-export TEST_RESULTS_IDENTIFIER=$host-fp-opt-id
-export TEST_RESULTS_NAME=$host-fp-opt-name
-export TEST_RESULTS_DESCRIPTION='fp optimization result'
-DISPLAY=:0 NO_FILE_HASH_CHECKS=1 PTS_SILENT_MODE=1 $PTS_BIN finish-run $TEST_RESULTS_IDENTIFIER
-#DISPLAY=:0 NO_FILE_HASH_CHECKS=1 PTS_SILENT_MODE=1 $PTS_BIN batch-benchmark pts-system pts/workstation pts/server-cpu-tests pts/hpc
+export TEST_RESULTS_IDENTIFIER=$host-baseline-id
+export TEST_RESULTS_NAME=$host-baseline-name
+export TEST_RESULTS_DESCRIPTION='baseline result'
+#DISPLAY=:0 NO_FILE_HASH_CHECKS=1 PTS_SILENT_MODE=1 $PTS_BIN finish-run $TEST_RESULTS_IDENTIFIER
+DISPLAY=:0 NO_FILE_HASH_CHECKS=1 PTS_SILENT_MODE=1 $PTS_BIN batch-benchmark regressed
+# pts-system pts/workstation pts/server-cpu-tests pts/hpc
 
 #$PTS_BIN result-file-raw-to-csv $TEST_RESULTS_NAME
