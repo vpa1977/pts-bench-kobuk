@@ -6,7 +6,7 @@
 #    systemd-sysv=253.5-1ubuntu6 systemd=253.5-1ubuntu6 libpam-systemd=253.5-1ubuntu6 libsystemd0=253.5-1ubuntu6 systemd-sysv=253.5-1ubuntu6 polkitd policykit-1 libsystemd-shared=253.5-1ubuntu6 \
 #    libudev1=253.5-1ubuntu6 \
 #    initramfs-tools-bin=0.142ubuntu15
-
+sudo apt update
 sudo apt install -y bash php-cli php-xml build-essential xterm p7zip-full nasm yasm libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev freeglut3-dev libssl-dev openssl php-cli php-xml autoconf mesa-utils vulkan-tools unzip apt-file cmake ninja-build gawk bison qtbase5-dev qt5-qmake libfftw3-dev fftw-dev freeglut3-dev python3-pip python3-yaml gfortran libopenmpi-dev openmpi-bin libmpich-dev opencl-headers ocl-icd-libopencl1 clinfo ocl-icd-opencl-dev
 
 # Installing a non-optimized version for the dav1d benchmark
