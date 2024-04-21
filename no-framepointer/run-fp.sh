@@ -24,9 +24,9 @@ PTS_BIN=$SCRIPT_DIR/../pts-source/phoronix-test-suite
 #export QMAKE_CFLAGS=$CFLAGS
 export OMIT_POINTER=-fno-omit-frame-pointer
 # PTS grabs these flags in pts_test_installer.php
-export CFLAGS='-fno-omit-frame-pointer'
-export CXXFLAGS='-fno-omit-frame-pointer'
-export FFLAGS='-fno-omit-frame-pointer'
+export CFLAGS='-fno-omit-frame-pointer -frecord-gcc-switches'
+export CXXFLAGS='-fno-omit-frame-pointer -frecord-gcc-switches'
+export FFLAGS='-fno-omit-frame-pointer -frecord-gcc-switches'
 
 # Required to avoid some tests from building with extra flags
 export CFLAGS_OVERRIDE=$CFLAGS
@@ -38,7 +38,7 @@ export TEST_RESULTS_IDENTIFIER=$host-withno-omit-framepointer-id
 export TEST_RESULTS_NAME=$host-withfp-withno-omit-framepointer-name
 export TEST_RESULTS_DESCRIPTION='--with-no-omit-framepointer'
 #DISPLAY=:0 NO_FILE_HASH_CHECKS=1 PTS_SILENT_MODE=1 $PTS_BIN finish-run $TEST_RESULTS_IDENTIFIER
-DISPLAY=:0 NO_FILE_HASH_CHECKS=1 PTS_SILENT_MODE=1 $PTS_BIN batch-benchmark regressed
+DISPLAY=:0 NO_FILE_HASH_CHECKS=1 PTS_SILENT_MODE=1 $PTS_BIN batch-benchmark cractus
 #pts-system pts/workstation pts/server-cpu-tests pts/hpc
 
 #$PTS_BIN result-file-raw-to-csv $TEST_RESULTS_NAME
