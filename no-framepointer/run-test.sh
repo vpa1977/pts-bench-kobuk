@@ -13,9 +13,9 @@ PTS_BIN=$SCRIPT_DIR/../pts-source/phoronix-test-suite
 #rm -rf $HOME/.phoronix-test-suite/installed-tests/
 
 # PTS grabs these flags in pts_test_installer.php
-export CFLAGS='-frecord-gcc-switches'
-export CXXFLAGS='-frecord-gcc-switches'
-export FFLAGS='-frecord-gcc-switches'
+export CFLAGS='-frecord-gcc-switches -O2'
+export CXXFLAGS='-frecord-gcc-switches -O2'
+export FFLAGS='-frecord-gcc-switches -O2'
 
 # Required to avoid some tests from building with extra flags
 export CFLAGS_OVERRIDE=$CFLAGS
