@@ -266,8 +266,4 @@
     <Test>system/tesseract-ocr-1.0.1</Test>
     <Description>Time To OCR 7 Images</Description>
   </Execute>
-  <Execute>
-    <Test>system/tesseract-ocr-1.0.1</Test>
-    <Description>Tesseract OCR System </Description>
-  </Execute>
 </PhoronixTestSuite>
