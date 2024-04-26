@@ -1,0 +1,233 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.4-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>alltests</Title>
+    <Version>1.0.0</Version>
+    <TestType>System</TestType>
+    <Description>All tests for -fomit-no-framepointer</Description>
+    <Maintainer>Vladimir Petko</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>system/ocrmypdf-1.0.0</Test>
+    <Description>OCRMyPDF System </Description>
+  </Execute>
+  <Execute>
+    <Test>system/octave-benchmark-1.0.1</Test>
+    <Description>GNU Octave Benchmark System </Description>
+  </Execute>
+  <Execute>
+    <Test>system/openscad-1.0.0</Test>
+    <Description>OpenSCAD System </Description>
+  </Execute>
+  <Execute>
+    <Test>system/rawtherapee-1.0.1</Test>
+    <Description>RawTherapee System </Description>
+  </Execute>
+  <Execute>
+    <Test>system/rsvg-1.0.0</Test>
+    <Description>librsvg System </Description>
+  </Execute>
+  <Execute>
+    <Test>system/tesseract-ocr-1.0.1</Test>
+    <Description>Tesseract OCR System </Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-cos</Arguments>
+    <Description>Benchmark: cos</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-exp</Arguments>
+    <Description>Benchmark: exp</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-ffs</Arguments>
+    <Description>Benchmark: ffs</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-pow</Arguments>
+    <Description>Benchmark: pow</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-sin</Arguments>
+    <Description>Benchmark: sin</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-log2</Arguments>
+    <Description>Benchmark: log2</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-modf</Arguments>
+    <Description>Benchmark: modf</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-sinh</Arguments>
+    <Description>Benchmark: sinh</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-sqrt</Arguments>
+    <Description>Benchmark: sqrt</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-tanh</Arguments>
+    <Description>Benchmark: tanh</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-asinh</Arguments>
+    <Description>Benchmark: asinh</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-atanh</Arguments>
+    <Description>Benchmark: atanh</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-ffsll</Arguments>
+    <Description>Benchmark: ffsll</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-sincos</Arguments>
+    <Description>Benchmark: sincos</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-pthread_once</Arguments>
+    <Description>Benchmark: pthread_once</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/x265-1.3.0</Test>
+    <Arguments>Bosphorus_3840x2160.y4m</Arguments>
+    <Description>Video Input: Bosphorus 4K</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/x265-1.3.0</Test>
+    <Arguments>Bosphorus_1920x1080_120fps_420_8bit_YUV.y4m</Arguments>
+    <Description>Video Input: Bosphorus 1080p</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/stockfish-1.4.0</Test>
+    <Description>Total Time</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/asmfish-1.1.2</Test>
+    <Description>1024 Hash Memory, 26 Depth</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/cpuminer-opt-1.7.0</Test>
+    <Arguments>-a m7m</Arguments>
+    <Description>Algorithm: m7m</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/cpuminer-opt-1.7.0</Test>
+    <Arguments>-a deep</Arguments>
+    <Description>Algorithm: deep</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/cpuminer-opt-1.7.0</Test>
+    <Arguments>-a skein</Arguments>
+    <Description>Algorithm: skein</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/cpuminer-opt-1.7.0</Test>
+    <Arguments>-a sha256t</Arguments>
+    <Description>Algorithm: sha256t</Description>
+  </Execute>
+  <Execute>
+    <Test>system/redis-1.1.1</Test>
+    <Description>Redis Memtier / Redis Benchmark System </Description>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-zstd-1.6.0</Test>
+    <Arguments>-b3</Arguments>
+    <Description>Compression Level: 3 - Compression Speed</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-zstd-1.6.0</Test>
+    <Arguments>-b3</Arguments>
+    <Description>Compression Level: 3 - Decompression Speed</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-zstd-1.6.0</Test>
+    <Arguments>-b8</Arguments>
+    <Description>Compression Level: 8 - Compression Speed</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-zstd-1.6.0</Test>
+    <Arguments>-b8</Arguments>
+    <Description>Compression Level: 8 - Decompression Speed</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-zstd-1.6.0</Test>
+    <Arguments>-b12</Arguments>
+    <Description>Compression Level: 12 - Compression Speed</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-zstd-1.6.0</Test>
+    <Arguments>-b12</Arguments>
+    <Description>Compression Level: 12 - Decompression Speed</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-zstd-1.6.0</Test>
+    <Arguments>-b19</Arguments>
+    <Description>Compression Level: 19 - Compression Speed</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-zstd-1.6.0</Test>
+    <Arguments>-b19</Arguments>
+    <Description>Compression Level: 19 - Decompression Speed</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-zstd-1.6.0</Test>
+    <Arguments>-b3 --long</Arguments>
+    <Description>Compression Level: 3, Long Mode - Compression Speed</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-zstd-1.6.0</Test>
+    <Arguments>-b3 --long</Arguments>
+    <Description>Compression Level: 3, Long Mode - Decompression Speed</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-zstd-1.6.0</Test>
+    <Arguments>-b8 --long</Arguments>
+    <Description>Compression Level: 8, Long Mode - Compression Speed</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-zstd-1.6.0</Test>
+    <Arguments>-b8 --long</Arguments>
+    <Description>Compression Level: 8, Long Mode - Decompression Speed</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-zstd-1.6.0</Test>
+    <Arguments>-b19 --long</Arguments>
+    <Description>Compression Level: 19, Long Mode - Compression Speed</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-zstd-1.6.0</Test>
+    <Arguments>-b19 --long</Arguments>
+    <Description>Compression Level: 19, Long Mode - Decompression Speed</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/dav1d-1.14.0</Test>
+    <Arguments>-i summer_nature_4k.ivf</Arguments>
+    <Description>Video Input: Summer Nature 4K</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/dav1d-1.14.0</Test>
+    <Arguments>-i summer_nature_1080p.ivf</Arguments>
+    <Description>Video Input: Summer Nature 1080p</Description>
+  </Execute>
+
+</PhoronixTestSuite>

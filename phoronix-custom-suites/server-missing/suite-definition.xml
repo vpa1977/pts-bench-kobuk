@@ -1,0 +1,239 @@
+<PhoronixTestSuite>
+<SuiteInformation>
+    <Title>alltests</Title>
+    <Version>1.0.0</Version>
+    <TestType>System</TestType>
+    <Description>All tests for -fomit-no-framepointer</Description>
+    <Maintainer>Vladimir Petko</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>system/sqlite-1.0.1</Test>
+    <Description>SQLite </Description>
+  </Execute>
+  <Execute>
+    <Test>system/cryptsetup-1.0.1</Test>
+    <Description>PBKDF2-sha512</Description>
+  </Execute>
+  <Execute>
+    <Test>system/cryptsetup-1.0.1</Test>
+    <Description>PBKDF2-whirlpool</Description>
+  </Execute>
+  <Execute>
+    <Test>system/cryptsetup-1.0.1</Test>
+    <Description>AES-XTS 256b Encryption</Description>
+  </Execute>
+  <Execute>
+    <Test>system/cryptsetup-1.0.1</Test>
+    <Description>AES-XTS 256b Decryption</Description>
+  </Execute>
+  <Execute>
+    <Test>system/cryptsetup-1.0.1</Test>
+    <Description>Serpent-XTS 256b Encryption</Description>
+  </Execute>
+  <Execute>
+    <Test>system/cryptsetup-1.0.1</Test>
+    <Description>Serpent-XTS 256b Decryption</Description>
+  </Execute>
+  <Execute>
+    <Test>system/cryptsetup-1.0.1</Test>
+    <Description>Twofish-XTS 256b Encryption</Description>
+  </Execute>
+  <Execute>
+    <Test>system/cryptsetup-1.0.1</Test>
+    <Description>Twofish-XTS 256b Decryption</Description>
+  </Execute>
+  <Execute>
+    <Test>system/cryptsetup-1.0.1</Test>
+    <Description>AES-XTS 512b Encryption</Description>
+  </Execute>
+  <Execute>
+    <Test>system/cryptsetup-1.0.1</Test>
+    <Description>AES-XTS 512b Decryption</Description>
+  </Execute>
+  <Execute>
+    <Test>system/cryptsetup-1.0.1</Test>
+    <Description>Serpent-XTS 512b Encryption</Description>
+  </Execute>
+  <Execute>
+    <Test>system/cryptsetup-1.0.1</Test>
+    <Description>Serpent-XTS 512b Decryption</Description>
+  </Execute>
+  <Execute>
+    <Test>system/cryptsetup-1.0.1</Test>
+    <Description>Twofish-XTS 512b Encryption</Description>
+  </Execute>
+  <Execute>
+    <Test>system/cryptsetup-1.0.1</Test>
+    <Description>Twofish-XTS 512b Decryption</Description>
+  </Execute>
+  <Execute>
+    <Test>system/gegl-1.0.0</Test>
+    <Description>GEGL System </Description>
+  </Execute>
+  <Execute>
+    <Test>system/gimp-1.1.3</Test>
+    <Description>GIMP System </Description>
+  </Execute>
+  <Execute>
+    <Test>system/gmic-1.0.0</Test>
+    <Description>G'MIC System </Description>
+  </Execute>
+  <Execute>
+    <Test>system/hugin-1.0.0</Test>
+    <Description>Hugin System </Description>
+  </Execute>
+  <Execute>
+    <Test>system/inkscape-1.0.1</Test>
+    <Description>Inkscape System </Description>
+  </Execute>
+  <Execute>
+    <Test>system/ocrmypdf-1.0.0</Test>
+    <Description>OCRMyPDF System </Description>
+  </Execute>
+  <Execute>
+    <Test>system/octave-benchmark-1.0.1</Test>
+    <Description>GNU Octave Benchmark System </Description>
+  </Execute>
+  <Execute>
+    <Test>system/rawtherapee-1.0.1</Test>
+    <Description>RawTherapee System </Description>
+  </Execute>
+  <Execute>
+    <Test>system/rsvg-1.0.0</Test>
+    <Description>librsvg System </Description>
+  </Execute>
+  <Execute>
+    <Test>system/tesseract-ocr-1.0.1</Test>
+    <Description>Tesseract OCR System </Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-cos</Arguments>
+    <Description>Benchmark: cos</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-exp</Arguments>
+    <Description>Benchmark: exp</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-ffs</Arguments>
+    <Description>Benchmark: ffs</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-pow</Arguments>
+    <Description>Benchmark: pow</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-sin</Arguments>
+    <Description>Benchmark: sin</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-log2</Arguments>
+    <Description>Benchmark: log2</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-modf</Arguments>
+    <Description>Benchmark: modf</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-sinh</Arguments>
+    <Description>Benchmark: sinh</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-sqrt</Arguments>
+    <Description>Benchmark: sqrt</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-tanh</Arguments>
+    <Description>Benchmark: tanh</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-asinh</Arguments>
+    <Description>Benchmark: asinh</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-atanh</Arguments>
+    <Description>Benchmark: atanh</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-ffsll</Arguments>
+    <Description>Benchmark: ffsll</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-sincos</Arguments>
+    <Description>Benchmark: sincos</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/glibc-bench-1.8.0</Test>
+    <Arguments>bench-pthread_once</Arguments>
+    <Description>Benchmark: pthread_once</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/rust-mandel-1.0.0</Test>
+    <Description>Time To Complete Serial/Parallel Mandelbrot</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/cpuminer-opt-1.7.0</Test>
+    <Arguments>-a m7m</Arguments>
+    <Description>Algorithm: m7m</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/cpuminer-opt-1.7.0</Test>
+    <Arguments>-a deep</Arguments>
+    <Description>Algorithm: deep</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/cpuminer-opt-1.7.0</Test>
+    <Arguments>-a skein</Arguments>
+    <Description>Algorithm: skein</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/cpuminer-opt-1.7.0</Test>
+    <Arguments>-a sha256t</Arguments>
+    <Description>Algorithm: sha256t</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/mysqlslap-1.4.0</Test>
+    <Arguments>--concurrency=128</Arguments>
+    <Description>Clients: 128</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/mysqlslap-1.4.0</Test>
+    <Arguments>--concurrency=256</Arguments>
+    <Description>Clients: 256</Description>
+  </Execute>
+  <Execute>
+    <Test>system/gimp-1.1.3</Test>
+    <Arguments>resize</Arguments>
+    <Description>Test: resize</Description>
+  </Execute>
+  <Execute>
+    <Test>system/gimp-1.1.3</Test>
+    <Arguments>rotate</Arguments>
+    <Description>Test: rotate</Description>
+  </Execute>
+  <Execute>
+    <Test>system/gimp-1.1.3</Test>
+    <Arguments>auto-levels</Arguments>
+    <Description>Test: auto-levels</Description>
+  </Execute>
+  <Execute>
+    <Test>system/gimp-1.1.3</Test>
+    <Arguments>unsharp-mask</Arguments>
+    <Description>Test: unsharp-mask</Description>
+  </Execute>
+
+</PhoronixTestSuite>
