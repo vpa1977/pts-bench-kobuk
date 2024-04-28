@@ -1,0 +1,14 @@
+job_queue: cractus
+provision_data:
+  distro: custom/baseline-mantic10
+output_timeout: 43200
+global_timeout: 43200
+test_data:
+  test_user: ubuntu
+  test_password: ubuntu
+  test_cmds: |
+    ssh $DEVICE_IP sudo apt -y install git
+reserve_data:
+  ssh_keys:
+    - lp:vpa1977
+  timeout: 43200

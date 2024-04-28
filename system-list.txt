@@ -1,0 +1,41 @@
+pts/system-decompress-bzip2 System BZIP2 Decompression                        Processor
+pts/system-decompress-gzip  System GZIP Decompression                         Processor
+pts/system-decompress-tiff  System Libtiff Decompression                      Processor
+pts/system-decompress-xz    System XZ Decompression                           Processor
+pts/system-libjpeg          System JPEG Library Decode                        Processor
+pts/system-libxml2          System Libxml2 Parsing                            Processor
+pts/systemd-boot-kernel     Systemd Kernel Boot Time                          Processor
+pts/systemd-boot-total      Systemd Total Boot Time                           System
+pts/systemd-boot-userspace  Systemd Userspace Boot Time                       Processor
+system/apache               Apache Benchmark
+system/blender              Blender                                           System
+system/cephfs-rados         CephFS RADOS Benchmark                            System
+system/clpeak               clpeak                                            System
+system/compress-lzma        LZMA Compression
+system/compress-pbzip2      PBZIP2 Compression
+system/compress-zstd        Zstd Compression                                  Processor
+system/cryptsetup           Cryptsetup                                        System
+system/darktable            Darktable                                         System
+system/ethminer             Ethereum Ethminer                                 System
+system/gegl                 GEGL                                              System
+system/gimp                 GIMP                                              System
+system/gmic                 G'MIC                                             System
+system/gnupg                GnuPG                                             Processor
+system/gnuradio             GNU Radio                                         Processor
+system/hugin                Hugin                                             System
+system/inkscape             Inkscape                                          System
+system/libreoffice          LibreOffice                                       System
+system/mpv                  MPV                                               System
+system/nginx                Nginx                                             System
+system/ocrmypdf             OCRMyPDF                                          System
+system/octave-benchmark     GNU Octave Benchmark                              System
+system/openscad             OpenSCAD                                          System
+system/openssl              OpenSSL                                           Processor
+system/opm                  Open Porous Media                                 Processor
+system/rawtherapee          RawTherapee                                       System
+system/redis                Redis Memtier / Redis Benchmark                   System
+system/rsvg                 librsvg                                           System
+system/selenium             Selenium                                          System
+system/selenium-top-sites   Time To Load + View Popular Websites              System
+system/sqlite               SQLite
+system/tesseract-ocr        Tesseract OCR                                     System
