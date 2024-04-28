@@ -226,10 +226,6 @@
     <Description>Algorithm: sha256t</Description>
   </Execute>
   <Execute>
-    <Test>pts/openssl-3.1.0</Test>
-    <Description>RSA 4096-bit Performance</Description>
-  </Execute>
-  <Execute>
     <Test>pts/redis-1.4.0</Test>
     <Arguments>-t get</Arguments>
     <Description>Test: GET</Description>
