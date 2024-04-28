@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.4-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>allserver</Title>
+    <Version>1.0.0</Version>
+    <TestType>System</TestType>
+    <Description>All server tests</Description>
+    <Maintainer>Vladimir Petko</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/dav1d-1.15.1</Test>
+    <Arguments>-i summer_nature_4k.ivf</Arguments>
+    <Description>Video Input: Summer Nature 4K</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/dav1d-1.15.1</Test>
+    <Arguments>-i summer_nature_1080p.ivf</Arguments>
+    <Description>Video Input: Summer Nature 1080p</Description>
+  </Execute>
+  <Execute>
+    <Test>system/gmic-1.0.0</Test>
+    <Description>G'MIC System </Description>
+  </Execute>
+  <Execute>
+    <Test>system/tesseract-ocr-1.0.1</Test>
+    <Description>Tesseract OCR System </Description>
+  </Execute>
+</PhoronixTestSuite>
