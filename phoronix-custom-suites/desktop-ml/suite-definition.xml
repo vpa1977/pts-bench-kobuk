@@ -5,789 +5,1049 @@
     <Title>desktop-ml</Title>
     <Version>1.0.0</Version>
     <TestType>System</TestType>
-    <Description>Desktop ML benchmark</Description>
+    <Description>Desktop ML</Description>
     <Maintainer>Vladimir Petko</Maintainer>
   </SuiteInformation>
-  <Execute>
-    <Test>system/sqlite-1.0.1</Test>
-    <Description>SQLite </Description>
-  </Execute>
-  <Execute>
-    <Test>system/gnuradio-1.0.0</Test>
-    <Description>Test: Five Back to Back FIR Filters</Description>
-  </Execute>
-  <Execute>
-    <Test>system/gnuradio-1.0.0</Test>
-    <Description>Test: Signal Source (Cosine)</Description>
-  </Execute>
-  <Execute>
-    <Test>system/gnuradio-1.0.0</Test>
-    <Description>Test: FIR Filter</Description>
-  </Execute>
-  <Execute>
-    <Test>system/gnuradio-1.0.0</Test>
-    <Description>Test: IIR Filter</Description>
-  </Execute>
-  <Execute>
-    <Test>system/gnuradio-1.0.0</Test>
-    <Description>Test: FM Deemphasis Filter</Description>
-  </Execute>
-  <Execute>
-    <Test>system/gnuradio-1.0.0</Test>
-    <Description>Test: Hilbert Transform</Description>
-  </Execute>
-  <Execute>
-    <Test>system/compress-pbzip2-1.0.0</Test>
-    <Description>PBZIP2 Compression </Description>
-  </Execute>
-  <Execute>
-    <Test>pts/system-decompress-bzip2-1.0.2</Test>
-    <Description>System BZIP2 Decompression Processor </Description>
-  </Execute>
-  <Execute>
-    <Test>pts/system-decompress-gzip-1.1.1</Test>
-    <Description>System GZIP Decompression Processor </Description>
-  </Execute>
-  <Execute>
-    <Test>pts/system-decompress-xz-1.0.2</Test>
-    <Description>System XZ Decompression Processor </Description>
-  </Execute>
-  <Execute>
-    <Test>system/compress-lzma-1.0.0</Test>
-    <Description>LZMA Compression </Description>
-  </Execute>
-  <Execute>
-    <Test>system/gnupg-1.0.1</Test>
-    <Description>GnuPG Processor </Description>
-  </Execute>
-  <Execute>
-    <Test>pts/system-decompress-tiff-1.0.1</Test>
-    <Description>System Libtiff Decompression Processor </Description>
-  </Execute>
-  <Execute>
-    <Test>pts/system-libjpeg-1.1.0</Test>
-    <Description>System JPEG Library Decode Processor </Description>
-  </Execute>
-  <Execute>
-    <Test>pts/system-libxml2-1.0.3</Test>
-    <Description>System Libxml2 Parsing Processor </Description>
-  </Execute>
-  <Execute>
-    <Test>system/cryptsetup-1.0.1</Test>
-    <Description>PBKDF2-sha512</Description>
-  </Execute>
-  <Execute>
-    <Test>system/cryptsetup-1.0.1</Test>
-    <Description>PBKDF2-whirlpool</Description>
-  </Execute>
-  <Execute>
-    <Test>system/cryptsetup-1.0.1</Test>
-    <Description>AES-XTS 256b Encryption</Description>
-  </Execute>
-  <Execute>
-    <Test>system/cryptsetup-1.0.1</Test>
-    <Description>AES-XTS 256b Decryption</Description>
-  </Execute>
-  <Execute>
-    <Test>system/cryptsetup-1.0.1</Test>
-    <Description>Serpent-XTS 256b Encryption</Description>
-  </Execute>
-  <Execute>
-    <Test>system/cryptsetup-1.0.1</Test>
-    <Description>Serpent-XTS 256b Decryption</Description>
-  </Execute>
-  <Execute>
-    <Test>system/cryptsetup-1.0.1</Test>
-    <Description>Twofish-XTS 256b Encryption</Description>
-  </Execute>
-  <Execute>
-    <Test>system/cryptsetup-1.0.1</Test>
-    <Description>Twofish-XTS 256b Decryption</Description>
-  </Execute>
-  <Execute>
-    <Test>system/cryptsetup-1.0.1</Test>
-    <Description>AES-XTS 512b Encryption</Description>
-  </Execute>
-  <Execute>
-    <Test>system/cryptsetup-1.0.1</Test>
-    <Description>AES-XTS 512b Decryption</Description>
-  </Execute>
-  <Execute>
-    <Test>system/cryptsetup-1.0.1</Test>
-    <Description>Serpent-XTS 512b Encryption</Description>
-  </Execute>
-  <Execute>
-    <Test>system/cryptsetup-1.0.1</Test>
-    <Description>Serpent-XTS 512b Decryption</Description>
-  </Execute>
-  <Execute>
-    <Test>system/cryptsetup-1.0.1</Test>
-    <Description>Twofish-XTS 512b Encryption</Description>
-  </Execute>
-  <Execute>
-    <Test>system/cryptsetup-1.0.1</Test>
-    <Description>Twofish-XTS 512b Decryption</Description>
-  </Execute>
-  <Execute>
-    <Test>system/gegl-1.0.0</Test>
-    <Description>GEGL System </Description>
-  </Execute>
-  <Execute>
-    <Test>system/hugin-1.0.0</Test>
-    <Description>Hugin System </Description>
-  </Execute>
-  <Execute>
-    <Test>system/inkscape-1.0.1</Test>
-    <Description>Inkscape System </Description>
-  </Execute>
-  <Execute>
-    <Test>system/ocrmypdf-1.0.0</Test>
-    <Description>OCRMyPDF System </Description>
-  </Execute>
-  <Execute>
-    <Test>system/octave-benchmark-1.0.1</Test>
-    <Description>GNU Octave Benchmark System </Description>
-  </Execute>
-  <Execute>
-    <Test>system/openscad-1.0.0</Test>
-    <Description>OpenSCAD System </Description>
-  </Execute>
-  <Execute>
-    <Test>system/rawtherapee-1.0.1</Test>
-    <Description>RawTherapee System </Description>
-  </Execute>
-  <Execute>
-    <Test>system/rsvg-1.0.0</Test>
-    <Description>librsvg System </Description>
-  </Execute>
-  <Execute>
-    <Test>system/redis-1.1.1</Test>
-    <Description>Redis Memtier / Redis Benchmark System </Description>
-  </Execute>
-  <Execute>
-    <Test>system/blender-1.2.1</Test>
-    <Description>Blender System </Description>
-  </Execute>
-  <Execute>
-    <Test>system/clpeak-1.0.1</Test>
-    <Description>clpeak System </Description>
-  </Execute>
-  <Execute>
-    <Test>system/nginx-1.0.0</Test>
-    <Description>Nginx System </Description>
-  </Execute>
-  <Execute>
-    <Test>system/selenium-1.0.38</Test>
-    <Description>Selenium System </Description>
-  </Execute>
-  <Execute>
-    <Test>system/selenium-top-sites-1.0.3</Test>
-    <Description>Time To Load + View Popular Websites System </Description>
-  </Execute>
-  <Execute>
-    <Test>system/tesseract-ocr-1.0.1</Test>
-    <Description>Tesseract OCR System </Description>
-  </Execute>
-  <Execute>
-    <Test>pts/systemd-boot-total-1.0.6</Test>
-    <Description>Systemd Total Boot Time System </Description>
-  </Execute>
-  <Execute>
-    <Test>pts/glibc-bench-1.8.0</Test>
-    <Arguments>bench-cos</Arguments>
-    <Description>Benchmark: cos</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/glibc-bench-1.8.0</Test>
-    <Arguments>bench-exp</Arguments>
-    <Description>Benchmark: exp</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/glibc-bench-1.8.0</Test>
-    <Arguments>bench-ffs</Arguments>
-    <Description>Benchmark: ffs</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/glibc-bench-1.8.0</Test>
-    <Arguments>bench-pow</Arguments>
-    <Description>Benchmark: pow</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/glibc-bench-1.8.0</Test>
-    <Arguments>bench-sin</Arguments>
-    <Description>Benchmark: sin</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/glibc-bench-1.8.0</Test>
-    <Arguments>bench-log2</Arguments>
-    <Description>Benchmark: log2</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/glibc-bench-1.8.0</Test>
-    <Arguments>bench-modf</Arguments>
-    <Description>Benchmark: modf</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/glibc-bench-1.8.0</Test>
-    <Arguments>bench-sinh</Arguments>
-    <Description>Benchmark: sinh</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/glibc-bench-1.8.0</Test>
-    <Arguments>bench-sqrt</Arguments>
-    <Description>Benchmark: sqrt</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/glibc-bench-1.8.0</Test>
-    <Arguments>bench-tanh</Arguments>
-    <Description>Benchmark: tanh</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/glibc-bench-1.8.0</Test>
-    <Arguments>bench-asinh</Arguments>
-    <Description>Benchmark: asinh</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/glibc-bench-1.8.0</Test>
-    <Arguments>bench-atanh</Arguments>
-    <Description>Benchmark: atanh</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/glibc-bench-1.8.0</Test>
-    <Arguments>bench-ffsll</Arguments>
-    <Description>Benchmark: ffsll</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/glibc-bench-1.8.0</Test>
-    <Arguments>bench-sincos</Arguments>
-    <Description>Benchmark: sincos</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/glibc-bench-1.8.0</Test>
-    <Arguments>bench-pthread_once</Arguments>
-    <Description>Benchmark: pthread_once</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/paraview-1.3.0</Test>
-    <Arguments>manyspheres.py -s 100 -r 726 -f 30 -v 1920,1080</Arguments>
-    <Description>Test: Many Spheres - Resolution: 1920 x 1080</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/paraview-1.3.0</Test>
-    <Arguments>/waveletvolume.py -d 256 -f 30 -v 1920,1080</Arguments>
-    <Description>Test: Wavelet Volume - Resolution: 1920 x 1080</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/paraview-1.3.0</Test>
-    <Arguments>waveletcontour.py -d 256 -f 30 -v 1920,1080</Arguments>
-    <Description>Test: Wavelet Contour - Resolution: 1920 x 1080</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/stream-1.3.4</Test>
-    <Arguments>Copy</Arguments>
-    <Description>Type: Copy</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/stream-1.3.4</Test>
-    <Arguments>Scale</Arguments>
-    <Description>Type: Scale</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/stream-1.3.4</Test>
-    <Arguments>Triad</Arguments>
-    <Description>Type: Triad</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/stream-1.3.4</Test>
-    <Arguments>Add</Arguments>
-    <Description>Type: Add</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/parboil-1.2.1</Test>
-    <Arguments>cutcp omp_base large</Arguments>
-    <Description>Test: OpenMP CUTCP</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/rodinia-1.3.2</Test>
-    <Arguments>OMP_LAVAMD</Arguments>
-    <Description>Test: OpenMP LavaMD</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/rodinia-1.3.2</Test>
-    <Arguments>OMP_CFD</Arguments>
-    <Description>Test: OpenMP CFD Solver</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/cp2k-1.4.1</Test>
-    <Description>Fayalite-FIST Data</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/dacapobench-1.1.0</Test>
-    <Arguments>jython</Arguments>
-    <Description>Java Test: Jython</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/dacapobench-1.1.0</Test>
-    <Arguments>tradebeans</Arguments>
-    <Description>Java Test: Tradebeans</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/renaissance-1.3.0</Test>
-    <Arguments>dotty</Arguments>
-    <Description>Test: Scala Dotty</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/renaissance-1.3.0</Test>
-    <Arguments>reactors</Arguments>
-    <Description>Test: Savina Reactors.IO</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/renaissance-1.3.0</Test>
-    <Arguments>page-rank</Arguments>
-    <Description>Test: Apache Spark PageRank</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/compress-zstd-1.6.0</Test>
-    <Arguments>-b3</Arguments>
-    <Description>Compression Level: 3</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/compress-zstd-1.6.0</Test>
-    <Arguments>-b8</Arguments>
-    <Description>Compression Level: 8</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/compress-zstd-1.6.0</Test>
-    <Arguments>-b12</Arguments>
-    <Description>Compression Level: 12</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/compress-zstd-1.6.0</Test>
-    <Arguments>-b19</Arguments>
-    <Description>Compression Level: 19</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/compress-zstd-1.6.0</Test>
-    <Arguments>-b3 --long</Arguments>
-    <Description>Compression Level: 3, Long Mode</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/compress-zstd-1.6.0</Test>
-    <Arguments>-b8 --long</Arguments>
-    <Description>Compression Level: 8, Long Mode</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/compress-zstd-1.6.0</Test>
-    <Arguments>-b19 --long</Arguments>
-    <Description>Compression Level: 19, Long Mode</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/john-the-ripper-1.8.0</Test>
-    <Arguments>--format=bcrypt</Arguments>
-    <Description>Test: Blowfish</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/kvazaar-1.2.0</Test>
-    <Arguments>-i Bosphorus_3840x2160.y4m --preset slow</Arguments>
-    <Description>Video Input: Bosphorus 4K - Video Preset: Slow</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/kvazaar-1.2.0</Test>
-    <Arguments>-i Bosphorus_3840x2160.y4m --preset medium</Arguments>
-    <Description>Video Input: Bosphorus 4K - Video Preset: Medium</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/kvazaar-1.2.0</Test>
-    <Arguments>-i Bosphorus_1920x1080_120fps_420_8bit_YUV.y4m --preset slow</Arguments>
-    <Description>Video Input: Bosphorus 1080p - Video Preset: Slow</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/kvazaar-1.2.0</Test>
-    <Arguments>-i Bosphorus_1920x1080_120fps_420_8bit_YUV.y4m --preset medium</Arguments>
-    <Description>Video Input: Bosphorus 1080p - Video Preset: Medium</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/kvazaar-1.2.0</Test>
-    <Arguments>-i Bosphorus_3840x2160.y4m --preset veryfast</Arguments>
-    <Description>Video Input: Bosphorus 4K - Video Preset: Very Fast</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/kvazaar-1.2.0</Test>
-    <Arguments>-i Bosphorus_3840x2160.y4m --preset superfast</Arguments>
-    <Description>Video Input: Bosphorus 4K - Video Preset: Super Fast</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/kvazaar-1.2.0</Test>
-    <Arguments>-i Bosphorus_3840x2160.y4m --preset ultrafast</Arguments>
-    <Description>Video Input: Bosphorus 4K - Video Preset: Ultra Fast</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/kvazaar-1.2.0</Test>
-    <Arguments>-i Bosphorus_1920x1080_120fps_420_8bit_YUV.y4m --preset veryfast</Arguments>
-    <Description>Video Input: Bosphorus 1080p - Video Preset: Very Fast</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/kvazaar-1.2.0</Test>
-    <Arguments>-i Bosphorus_1920x1080_120fps_420_8bit_YUV.y4m --preset superfast</Arguments>
-    <Description>Video Input: Bosphorus 1080p - Video Preset: Super Fast</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/kvazaar-1.2.0</Test>
-    <Arguments>-i Bosphorus_1920x1080_120fps_420_8bit_YUV.y4m --preset ultrafast</Arguments>
-    <Description>Video Input: Bosphorus 1080p - Video Preset: Ultra Fast</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/svt-av1-2.11.1</Test>
-    <Description>1080p 8-bit YUV To AV1 Video Encode</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/svt-hevc-1.2.1</Test>
-    <Description>1080p 8-bit YUV To HEVC Video Encode</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/svt-vp9-1.3.1</Test>
-    <Description>1080p 8-bit YUV To VP9 Video Encode</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/x264-2.7.0</Test>
-    <Description>H.264 Video Encoding</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/x265-1.3.0</Test>
-    <Arguments>Bosphorus_3840x2160.y4m</Arguments>
-    <Description>Video Input: Bosphorus 4K</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/x265-1.3.0</Test>
-    <Arguments>Bosphorus_1920x1080_120fps_420_8bit_YUV.y4m</Arguments>
-    <Description>Video Input: Bosphorus 1080p</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/himeno-1.3.0</Test>
-    <Description>Poisson Pressure Solver</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/compress-7zip-1.10.0</Test>
-    <Description>Test: Compression Rating</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/compress-7zip-1.10.0</Test>
-    <Description>Test: Decompression Rating</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/stockfish-1.4.0</Test>
-    <Description>Total Time</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/asmfish-1.1.2</Test>
-    <Description>1024 Hash Memory, 26 Depth</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/swet-1.0.0</Test>
-    <Description>Average</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/build-gcc-1.4.0</Test>
-    <Description>Time To Compile</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/build-linux-kernel-1.15.0</Test>
-    <Description>Time To Compile</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/build-llvm-1.5.0</Test>
-    <Description>Time To Compile</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/build-php-1.6.0</Test>
-    <Description>Time To Compile</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/c-ray-1.2.0</Test>
-    <Description>Total Time - 4K, 16 Rays Per Pixel</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/povray-1.2.1</Test>
-    <Description>Trace Time</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/rust-mandel-1.0.0</Test>
-    <Description>Time To Complete Serial/Parallel Mandelbrot</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/onednn-3.3.0</Test>
-    <Arguments>--deconv --batch=inputs/deconv/deconv_1d --cfg=f32</Arguments>
-    <Description>Harness: Deconvolution Batch deconv_1d - Data Type: f32</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/onednn-3.3.0</Test>
-    <Arguments>--conv --batch=inputs/conv_alexnet --cfg=f32</Arguments>
-    <Description>Harness: Convolution Batch conv_alexnet - Data Type: f32</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/onednn-3.3.0</Test>
-    <Arguments>--conv --batch=inputs/conv_googlenet_v3 --cfg=f32</Arguments>
-    <Description>Harness: Convolution Batch conv_googlenet_v3 - Data Type: f32</Description>
-  </Execute>
   <Execute>
     <Test>pts/numpy-1.2.1</Test>
   </Execute>
   <Execute>
-    <Test>pts/cython-bench-1.1.0</Test>
-    <Arguments>NQUEENS</Arguments>
-    <Description>Test: N-Queens</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cpu 1 resnet50</Arguments>
+    <Description>Device: CPU - Batch Size: 1 - Model: ResNet-50</Description>
   </Execute>
   <Execute>
-    <Test>pts/hackbench-1.0.0</Test>
-    <Arguments>32 process</Arguments>
-    <Description>Count: 32 - Type: Process</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cpu 1 resnet152</Arguments>
+    <Description>Device: CPU - Batch Size: 1 - Model: ResNet-152</Description>
   </Execute>
   <Execute>
-    <Test>pts/m-queens-1.1.0</Test>
-    <Description>Time To Solve</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cpu 16 resnet50</Arguments>
+    <Description>Device: CPU - Batch Size: 16 - Model: ResNet-50</Description>
   </Execute>
   <Execute>
-    <Test>pts/opencv-bench-1.0.0</Test>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cpu 32 resnet50</Arguments>
+    <Description>Device: CPU - Batch Size: 32 - Model: ResNet-50</Description>
   </Execute>
   <Execute>
-    <Test>pts/radiance-1.0.0</Test>
-    <Arguments>make all</Arguments>
-    <Description>Test: Serial</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cpu 64 resnet50</Arguments>
+    <Description>Device: CPU - Batch Size: 64 - Model: ResNet-50</Description>
   </Execute>
   <Execute>
-    <Test>pts/radiance-1.0.0</Test>
-    <Arguments>make smp</Arguments>
-    <Description>Test: SMP Parallel</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cpu 16 resnet152</Arguments>
+    <Description>Device: CPU - Batch Size: 16 - Model: ResNet-152</Description>
   </Execute>
   <Execute>
-    <Test>pts/cpuminer-opt-1.7.0</Test>
-    <Arguments>-a m7m</Arguments>
-    <Description>Algorithm: m7m</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cpu 256 resnet50</Arguments>
+    <Description>Device: CPU - Batch Size: 256 - Model: ResNet-50</Description>
   </Execute>
   <Execute>
-    <Test>pts/cpuminer-opt-1.7.0</Test>
-    <Arguments>-a deep</Arguments>
-    <Description>Algorithm: deep</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cpu 32 resnet152</Arguments>
+    <Description>Device: CPU - Batch Size: 32 - Model: ResNet-152</Description>
   </Execute>
   <Execute>
-    <Test>pts/cpuminer-opt-1.7.0</Test>
-    <Arguments>-a skein</Arguments>
-    <Description>Algorithm: skein</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cpu 512 resnet50</Arguments>
+    <Description>Device: CPU - Batch Size: 512 - Model: ResNet-50</Description>
   </Execute>
   <Execute>
-    <Test>pts/cpuminer-opt-1.7.0</Test>
-    <Arguments>-a sha256t</Arguments>
-    <Description>Algorithm: sha256t</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cpu 64 resnet152</Arguments>
+    <Description>Device: CPU - Batch Size: 64 - Model: ResNet-152</Description>
   </Execute>
   <Execute>
-    <Test>pts/openssl-3.1.0</Test>
-    <Description>RSA 4096-bit Performance</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cpu 256 resnet152</Arguments>
+    <Description>Device: CPU - Batch Size: 256 - Model: ResNet-152</Description>
   </Execute>
   <Execute>
-    <Test>pts/tjbench-1.2.0</Test>
-    <Arguments>decompression-throughput</Arguments>
-    <Description>Test: Decompression Throughput</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cpu 512 resnet152</Arguments>
+    <Description>Device: CPU - Batch Size: 512 - Model: ResNet-152</Description>
   </Execute>
   <Execute>
-    <Test>pts/mysqlslap-1.4.0</Test>
-    <Arguments>--concurrency=128</Arguments>
-    <Description>Clients: 128</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cpu 1 efficientnet_v2_l</Arguments>
+    <Description>Device: CPU - Batch Size: 1 - Model: Efficientnet_v2_l</Description>
   </Execute>
   <Execute>
-    <Test>pts/mysqlslap-1.4.0</Test>
-    <Arguments>--concurrency=256</Arguments>
-    <Description>Clients: 256</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cpu 16 efficientnet_v2_l</Arguments>
+    <Description>Device: CPU - Batch Size: 16 - Model: Efficientnet_v2_l</Description>
   </Execute>
   <Execute>
-    <Test>system/gimp-1.1.3</Test>
-    <Arguments>resize</Arguments>
-    <Description>Test: resize</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cpu 32 efficientnet_v2_l</Arguments>
+    <Description>Device: CPU - Batch Size: 32 - Model: Efficientnet_v2_l</Description>
   </Execute>
   <Execute>
-    <Test>system/gimp-1.1.3</Test>
-    <Arguments>rotate</Arguments>
-    <Description>Test: rotate</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cpu 64 efficientnet_v2_l</Arguments>
+    <Description>Device: CPU - Batch Size: 64 - Model: Efficientnet_v2_l</Description>
   </Execute>
   <Execute>
-    <Test>system/gimp-1.1.3</Test>
-    <Arguments>auto-levels</Arguments>
-    <Description>Test: auto-levels</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cpu 256 efficientnet_v2_l</Arguments>
+    <Description>Device: CPU - Batch Size: 256 - Model: Efficientnet_v2_l</Description>
   </Execute>
   <Execute>
-    <Test>system/gimp-1.1.3</Test>
-    <Arguments>unsharp-mask</Arguments>
-    <Description>Test: unsharp-mask</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cpu 512 efficientnet_v2_l</Arguments>
+    <Description>Device: CPU - Batch Size: 512 - Model: Efficientnet_v2_l</Description>
   </Execute>
   <Execute>
-    <Test>pts/ior-1.1.1</Test>
-    <Arguments>-b 64m -o testFile</Arguments>
-    <Description>Block Size: 64MB - Disk Target: Default Test Directory</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cuda 1 resnet50</Arguments>
+    <Description>Device: NVIDIA CUDA GPU - Batch Size: 1 - Model: ResNet-50</Description>
   </Execute>
   <Execute>
-    <Test>pts/ior-1.1.1</Test>
-    <Arguments>-b 256m -o testFile</Arguments>
-    <Description>Block Size: 256MB - Disk Target: Default Test Directory</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cuda 1 resnet152</Arguments>
+    <Description>Device: NVIDIA CUDA GPU - Batch Size: 1 - Model: ResNet-152</Description>
   </Execute>
   <Execute>
-    <Test>pts/redis-1.4.0</Test>
-    <Arguments>-t get</Arguments>
-    <Description>Test: GET</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cuda 16 resnet50</Arguments>
+    <Description>Device: NVIDIA CUDA GPU - Batch Size: 16 - Model: ResNet-50</Description>
   </Execute>
   <Execute>
-    <Test>pts/redis-1.4.0</Test>
-    <Arguments>-t set</Arguments>
-    <Description>Test: SET</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cuda 32 resnet50</Arguments>
+    <Description>Device: NVIDIA CUDA GPU - Batch Size: 32 - Model: ResNet-50</Description>
   </Execute>
   <Execute>
-    <Test>pts/compress-zstd-1.6.0</Test>
-    <Arguments>-b3</Arguments>
-    <Description>Compression Level: 3 - Compression Speed</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cuda 64 resnet50</Arguments>
+    <Description>Device: NVIDIA CUDA GPU - Batch Size: 64 - Model: ResNet-50</Description>
   </Execute>
   <Execute>
-    <Test>pts/compress-zstd-1.6.0</Test>
-    <Arguments>-b3</Arguments>
-    <Description>Compression Level: 3 - Decompression Speed</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cuda 16 resnet152</Arguments>
+    <Description>Device: NVIDIA CUDA GPU - Batch Size: 16 - Model: ResNet-152</Description>
   </Execute>
   <Execute>
-    <Test>pts/compress-zstd-1.6.0</Test>
-    <Arguments>-b8</Arguments>
-    <Description>Compression Level: 8 - Compression Speed</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cuda 256 resnet50</Arguments>
+    <Description>Device: NVIDIA CUDA GPU - Batch Size: 256 - Model: ResNet-50</Description>
   </Execute>
   <Execute>
-    <Test>pts/compress-zstd-1.6.0</Test>
-    <Arguments>-b8</Arguments>
-    <Description>Compression Level: 8 - Decompression Speed</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cuda 32 resnet152</Arguments>
+    <Description>Device: NVIDIA CUDA GPU - Batch Size: 32 - Model: ResNet-152</Description>
   </Execute>
   <Execute>
-    <Test>pts/compress-zstd-1.6.0</Test>
-    <Arguments>-b12</Arguments>
-    <Description>Compression Level: 12 - Compression Speed</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cuda 512 resnet50</Arguments>
+    <Description>Device: NVIDIA CUDA GPU - Batch Size: 512 - Model: ResNet-50</Description>
   </Execute>
   <Execute>
-    <Test>pts/compress-zstd-1.6.0</Test>
-    <Arguments>-b12</Arguments>
-    <Description>Compression Level: 12 - Decompression Speed</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cuda 64 resnet152</Arguments>
+    <Description>Device: NVIDIA CUDA GPU - Batch Size: 64 - Model: ResNet-152</Description>
   </Execute>
   <Execute>
-    <Test>pts/compress-zstd-1.6.0</Test>
-    <Arguments>-b19</Arguments>
-    <Description>Compression Level: 19 - Compression Speed</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cuda 256 resnet152</Arguments>
+    <Description>Device: NVIDIA CUDA GPU - Batch Size: 256 - Model: ResNet-152</Description>
   </Execute>
   <Execute>
-    <Test>pts/compress-zstd-1.6.0</Test>
-    <Arguments>-b19</Arguments>
-    <Description>Compression Level: 19 - Decompression Speed</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cuda 512 resnet152</Arguments>
+    <Description>Device: NVIDIA CUDA GPU - Batch Size: 512 - Model: ResNet-152</Description>
   </Execute>
   <Execute>
-    <Test>pts/compress-zstd-1.6.0</Test>
-    <Arguments>-b3 --long</Arguments>
-    <Description>Compression Level: 3, Long Mode - Compression Speed</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cuda 1 efficientnet_v2_l</Arguments>
+    <Description>Device: NVIDIA CUDA GPU - Batch Size: 1 - Model: Efficientnet_v2_l</Description>
   </Execute>
   <Execute>
-    <Test>pts/compress-zstd-1.6.0</Test>
-    <Arguments>-b3 --long</Arguments>
-    <Description>Compression Level: 3, Long Mode - Decompression Speed</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cuda 16 efficientnet_v2_l</Arguments>
+    <Description>Device: NVIDIA CUDA GPU - Batch Size: 16 - Model: Efficientnet_v2_l</Description>
   </Execute>
   <Execute>
-    <Test>pts/compress-zstd-1.6.0</Test>
-    <Arguments>-b8 --long</Arguments>
-    <Description>Compression Level: 8, Long Mode - Compression Speed</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cuda 32 efficientnet_v2_l</Arguments>
+    <Description>Device: NVIDIA CUDA GPU - Batch Size: 32 - Model: Efficientnet_v2_l</Description>
   </Execute>
   <Execute>
-    <Test>pts/compress-zstd-1.6.0</Test>
-    <Arguments>-b8 --long</Arguments>
-    <Description>Compression Level: 8, Long Mode - Decompression Speed</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cuda 64 efficientnet_v2_l</Arguments>
+    <Description>Device: NVIDIA CUDA GPU - Batch Size: 64 - Model: Efficientnet_v2_l</Description>
   </Execute>
   <Execute>
-    <Test>pts/compress-zstd-1.6.0</Test>
-    <Arguments>-b19 --long</Arguments>
-    <Description>Compression Level: 19, Long Mode - Compression Speed</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cuda 256 efficientnet_v2_l</Arguments>
+    <Description>Device: NVIDIA CUDA GPU - Batch Size: 256 - Model: Efficientnet_v2_l</Description>
   </Execute>
   <Execute>
-    <Test>pts/compress-zstd-1.6.0</Test>
-    <Arguments>-b19 --long</Arguments>
-    <Description>Compression Level: 19, Long Mode - Decompression Speed</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/dav1d-1.15.1</Test>
-    <Arguments>-i summer_nature_4k.ivf</Arguments>
-    <Description>Video Input: Summer Nature 4K</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/dav1d-1.15.1</Test>
-    <Arguments>-i summer_nature_1080p.ivf</Arguments>
-    <Description>Video Input: Summer Nature 1080p</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/stress-ng-1.11.0</Test>
-    <Arguments>--crypt 0</Arguments>
-    <Description>Test: Crypto</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/stress-ng-1.11.0</Test>
-    <Arguments>--cpu 0 --cpu-method all</Arguments>
-    <Description>Test: CPU Stress</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/ctx-clock-1.0.0</Test>
-    <Description>Context Switch Time</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/sysbench-1.1.0</Test>
-    <Arguments>memory run</Arguments>
-    <Description>Test: Memory</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/sysbench-1.1.0</Test>
-    <Arguments>cpu run</Arguments>
-    <Description>Test: CPU</Description>
+    <Test>pts/pytorch-1.0.1</Test>
+    <Arguments>cuda 512 efficientnet_v2_l</Arguments>
+    <Description>Device: NVIDIA CUDA GPU - Batch Size: 512 - Model: Efficientnet_v2_l</Description>
   </Execute>
   <Execute>
     <Test>pts/pybench-1.1.3</Test>
     <Description>Total For Average Test Times</Description>
   </Execute>
   <Execute>
-    <Test>pts/appleseed-1.0.1</Test>
-    <Arguments>emily.appleseed</Arguments>
-    <Description>Scene: Emily</Description>
+    <Test>pts/pyperformance-1.0.2</Test>
+    <Arguments>go</Arguments>
+    <Description>Benchmark: go</Description>
   </Execute>
   <Execute>
-    <Test>pts/appleseed-1.0.1</Test>
-    <Arguments>disney_material_1.appleseed</Arguments>
-    <Description>Scene: Disney Material</Description>
+    <Test>pts/pyperformance-1.0.2</Test>
+    <Arguments>2to3</Arguments>
+    <Description>Benchmark: 2to3</Description>
   </Execute>
   <Execute>
-    <Test>pts/phpbench-1.1.6</Test>
-    <Description>PHP Benchmark Suite</Description>
+    <Test>pts/pyperformance-1.0.2</Test>
+    <Arguments>chaos</Arguments>
+    <Description>Benchmark: chaos</Description>
   </Execute>
   <Execute>
-    <Test>pts/git-1.1.0</Test>
-    <Description>Time To Complete Common Git Commands</Description>
+    <Test>pts/pyperformance-1.0.2</Test>
+    <Arguments>float</Arguments>
+    <Description>Benchmark: float</Description>
   </Execute>
   <Execute>
-    <Test>pts/dav1d-1.15.1</Test>
-    <Arguments>-i chimera_8b_1080p.ivf</Arguments>
-    <Description>Video Input: Chimera 1080p</Description>
+    <Test>pts/pyperformance-1.0.2</Test>
+    <Arguments>nbody</Arguments>
+    <Description>Benchmark: nbody</Description>
   </Execute>
   <Execute>
-    <Test>pts/dav1d-1.15.1</Test>
-    <Arguments>-i chimera_10b_1080p.ivf</Arguments>
-    <Description>Video Input: Chimera 1080p 10-bit</Description>
+    <Test>pts/pyperformance-1.0.2</Test>
+    <Arguments>pathlib</Arguments>
+    <Description>Benchmark: pathlib</Description>
   </Execute>
   <Execute>
-    <Test>system/gmic-1.0.0</Test>
-    <Description>G'MIC System </Description>
+    <Test>pts/pyperformance-1.0.2</Test>
+    <Arguments>raytrace</Arguments>
+    <Description>Benchmark: raytrace</Description>
   </Execute>
   <Execute>
-    <Test>system/tesseract-ocr-1.0.1</Test>
-    <Description>Time To OCR 7 Images</Description>
+    <Test>pts/pyperformance-1.0.2</Test>
+    <Arguments>json_loads</Arguments>
+    <Description>Benchmark: json_loads</Description>
   </Execute>
   <Execute>
-    <Test>system/gimp-1.1.3</Test>
-    <Description>GIMP System </Description>
+    <Test>pts/pyperformance-1.0.2</Test>
+    <Arguments>crypto_pyaes</Arguments>
+    <Description>Benchmark: crypto_pyaes</Description>
   </Execute>
   <Execute>
-    <Test>system/openssl-1.2.0</Test>
-    <Description>OpenSSL Processor </Description>
+    <Test>pts/pyperformance-1.0.2</Test>
+    <Arguments>regex_compile</Arguments>
+    <Description>Benchmark: regex_compile</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyperformance-1.0.2</Test>
+    <Arguments>python_startup</Arguments>
+    <Description>Benchmark: python_startup</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyperformance-1.0.2</Test>
+    <Arguments>django_template</Arguments>
+    <Description>Benchmark: django_template</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyperformance-1.0.2</Test>
+    <Arguments>pickle_pure_python</Arguments>
+    <Description>Benchmark: pickle_pure_python</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b numpy -s 16384 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: CPU - Backend: Numpy - Project Size: 16384 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b numpy -s 16384 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: CPU - Backend: Numpy - Project Size: 16384 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b numpy -s 65536 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: CPU - Backend: Numpy - Project Size: 65536 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b numpy -s 65536 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: CPU - Backend: Numpy - Project Size: 65536 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b numpy -s 16384 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: GPU - Backend: Numpy - Project Size: 16384 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b numpy -s 16384 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: GPU - Backend: Numpy - Project Size: 16384 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b numpy -s 65536 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: GPU - Backend: Numpy - Project Size: 65536 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b numpy -s 65536 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: GPU - Backend: Numpy - Project Size: 65536 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b numpy -s 262144 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: CPU - Backend: Numpy - Project Size: 262144 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b numpy -s 262144 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: CPU - Backend: Numpy - Project Size: 262144 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b numpy -s 262144 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: GPU - Backend: Numpy - Project Size: 262144 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b numpy -s 262144 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: GPU - Backend: Numpy - Project Size: 262144 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b numpy -s 1048576 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: CPU - Backend: Numpy - Project Size: 1048576 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b numpy -s 1048576 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: CPU - Backend: Numpy - Project Size: 1048576 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b numpy -s 4194304 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: CPU - Backend: Numpy - Project Size: 4194304 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b numpy -s 4194304 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: CPU - Backend: Numpy - Project Size: 4194304 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b numpy -s 1048576 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: GPU - Backend: Numpy - Project Size: 1048576 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b numpy -s 1048576 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: GPU - Backend: Numpy - Project Size: 1048576 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b numpy -s 4194304 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: GPU - Backend: Numpy - Project Size: 4194304 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b numpy -s 4194304 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: GPU - Backend: Numpy - Project Size: 4194304 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>glm.py</Arguments>
+    <Description>Benchmark: GLM</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>saga.py</Arguments>
+    <Description>Benchmark: SAGA</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>tree.py</Arguments>
+    <Description>Benchmark: Tree</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>lasso.py</Arguments>
+    <Description>Benchmark: Lasso</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>sparsify.py</Arguments>
+    <Description>Benchmark: Sparsify</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>plot_ward.py</Arguments>
+    <Description>Benchmark: Plot Ward</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>mnist.py</Arguments>
+    <Description>Benchmark: MNIST Dataset</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>plot_neighbors.py</Arguments>
+    <Description>Benchmark: Plot Neighbors</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>sgd_regression.py</Arguments>
+    <Description>Benchmark: SGD Regression</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>online_ocsvm.py</Arguments>
+    <Description>Benchmark: SGDOneClassSVM</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>isolation_forest.py</Arguments>
+    <Description>Benchmark: Isolation Forest</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>text_vectorizers.py</Arguments>
+    <Description>Benchmark: Text Vectorizers</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>plot_hierarchical.py</Arguments>
+    <Description>Benchmark: Plot Hierarchical</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>plot_omp_lars.py</Arguments>
+    <Description>Benchmark: Plot OMP vs. LARS</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>feature_expansions.py</Arguments>
+    <Description>Benchmark: Feature Expansions</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>lof.py</Arguments>
+    <Description>Benchmark: LocalOutlierFactor</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>tsne_mnist.py</Arguments>
+    <Description>Benchmark: TSNE MNIST Dataset</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>isotonic.py --iterations 100 --log_min_problem_size 1 --log_max_problem_size 10 --dataset logistic</Arguments>
+    <Description>Benchmark: Isotonic / Logistic</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>plot_incremental_pca.py</Arguments>
+    <Description>Benchmark: Plot Incremental PCA</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>hist_gradient_boosting.py</Arguments>
+    <Description>Benchmark: Hist Gradient Boosting</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>sample_without_replacement.py</Arguments>
+    <Description>Benchmark: Sample Without Replacement</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>covertype.py</Arguments>
+    <Description>Benchmark: Covertype Dataset Benchmark</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>hist_gradient_boosting_adult.py</Arguments>
+    <Description>Benchmark: Hist Gradient Boosting Adult</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>isotonic.py --iterations 100 --log_min_problem_size 1 --log_max_problem_size 10 --dataset perturbed_logarithm</Arguments>
+    <Description>Benchmark: Isotonic / Perturbed Logarithm</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>hist_gradient_boosting_threading.py</Arguments>
+    <Description>Benchmark: Hist Gradient Boosting Threading</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>20newsgroups.py -e logistic_regression</Arguments>
+    <Description>Benchmark: 20 Newsgroups / Logistic Regression</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>plot_polynomial_kernel_approximation.py</Arguments>
+    <Description>Benchmark: Plot Polynomial Kernel Approximation</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>hist_gradient_boosting_categorical_only.py</Arguments>
+    <Description>Benchmark: Hist Gradient Boosting Categorical Only</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>kernel_pca_solvers_time_vs_n_samples.py</Arguments>
+    <Description>Benchmark: Kernel PCA Solvers / Time vs. N Samples</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>kernel_pca_solvers_time_vs_n_components.py</Arguments>
+    <Description>Benchmark: Kernel PCA Solvers / Time vs. N Components</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>random_projections.py --n-times 100</Arguments>
+    <Description>Benchmark: Sparse Random Projections / 100 Iterations</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b jax -s 16384 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: CPU - Backend: JAX - Project Size: 16384 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b jax -s 16384 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: CPU - Backend: JAX - Project Size: 16384 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b jax -s 65536 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: CPU - Backend: JAX - Project Size: 65536 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b jax -s 65536 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: CPU - Backend: JAX - Project Size: 65536 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b jax -s 16384 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: GPU - Backend: JAX - Project Size: 16384 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b jax -s 16384 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: GPU - Backend: JAX - Project Size: 16384 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b jax -s 65536 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: GPU - Backend: JAX - Project Size: 65536 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b jax -s 65536 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: GPU - Backend: JAX - Project Size: 65536 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b jax -s 262144 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: CPU - Backend: JAX - Project Size: 262144 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b jax -s 262144 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: CPU - Backend: JAX - Project Size: 262144 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b jax -s 262144 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: GPU - Backend: JAX - Project Size: 262144 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b jax -s 262144 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: GPU - Backend: JAX - Project Size: 262144 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b jax -s 1048576 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: CPU - Backend: JAX - Project Size: 1048576 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b jax -s 1048576 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: CPU - Backend: JAX - Project Size: 1048576 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b jax -s 4194304 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: CPU - Backend: JAX - Project Size: 4194304 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b jax -s 4194304 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: CPU - Backend: JAX - Project Size: 4194304 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b numba -s 16384 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: CPU - Backend: Numba - Project Size: 16384 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b numba -s 16384 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: CPU - Backend: Numba - Project Size: 16384 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b numba -s 65536 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: CPU - Backend: Numba - Project Size: 65536 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b numba -s 65536 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: CPU - Backend: Numba - Project Size: 65536 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b jax -s 1048576 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: GPU - Backend: JAX - Project Size: 1048576 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b jax -s 1048576 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: GPU - Backend: JAX - Project Size: 1048576 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b jax -s 4194304 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: GPU - Backend: JAX - Project Size: 4194304 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b jax -s 4194304 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: GPU - Backend: JAX - Project Size: 4194304 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b numba -s 16384 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: GPU - Backend: Numba - Project Size: 16384 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b numba -s 16384 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: GPU - Backend: Numba - Project Size: 16384 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b numba -s 65536 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: GPU - Backend: Numba - Project Size: 65536 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b numba -s 65536 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: GPU - Backend: Numba - Project Size: 65536 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b aesara -s 16384 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: CPU - Backend: Aesara - Project Size: 16384 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b aesara -s 16384 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: CPU - Backend: Aesara - Project Size: 16384 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b aesara -s 65536 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: CPU - Backend: Aesara - Project Size: 65536 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b aesara -s 65536 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: CPU - Backend: Aesara - Project Size: 65536 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b numba -s 262144 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: CPU - Backend: Numba - Project Size: 262144 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b numba -s 262144 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: CPU - Backend: Numba - Project Size: 262144 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b aesara -s 16384 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: GPU - Backend: Aesara - Project Size: 16384 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b aesara -s 16384 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: GPU - Backend: Aesara - Project Size: 16384 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b aesara -s 65536 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: GPU - Backend: Aesara - Project Size: 65536 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b aesara -s 65536 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: GPU - Backend: Aesara - Project Size: 65536 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b numba -s 262144 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: GPU - Backend: Numba - Project Size: 262144 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b numba -s 262144 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: GPU - Backend: Numba - Project Size: 262144 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b aesara -s 262144 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: CPU - Backend: Aesara - Project Size: 262144 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b aesara -s 262144 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: CPU - Backend: Aesara - Project Size: 262144 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b numba -s 1048576 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: CPU - Backend: Numba - Project Size: 1048576 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b numba -s 1048576 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: CPU - Backend: Numba - Project Size: 1048576 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b numba -s 4194304 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: CPU - Backend: Numba - Project Size: 4194304 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b numba -s 4194304 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: CPU - Backend: Numba - Project Size: 4194304 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b pytorch -s 16384 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: CPU - Backend: PyTorch - Project Size: 16384 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b pytorch -s 16384 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: CPU - Backend: PyTorch - Project Size: 16384 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b pytorch -s 65536 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: CPU - Backend: PyTorch - Project Size: 65536 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b pytorch -s 65536 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: CPU - Backend: PyTorch - Project Size: 65536 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b aesara -s 262144 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: GPU - Backend: Aesara - Project Size: 262144 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b aesara -s 262144 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: GPU - Backend: Aesara - Project Size: 262144 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b numba -s 1048576 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: GPU - Backend: Numba - Project Size: 1048576 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b numba -s 1048576 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: GPU - Backend: Numba - Project Size: 1048576 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b numba -s 4194304 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: GPU - Backend: Numba - Project Size: 4194304 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b numba -s 4194304 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: GPU - Backend: Numba - Project Size: 4194304 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b pytorch -s 16384 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: GPU - Backend: PyTorch - Project Size: 16384 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b pytorch -s 16384 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: GPU - Backend: PyTorch - Project Size: 16384 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b pytorch -s 65536 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: GPU - Backend: PyTorch - Project Size: 65536 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b pytorch -s 65536 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: GPU - Backend: PyTorch - Project Size: 65536 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b aesara -s 1048576 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: CPU - Backend: Aesara - Project Size: 1048576 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b aesara -s 1048576 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: CPU - Backend: Aesara - Project Size: 1048576 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b aesara -s 4194304 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: CPU - Backend: Aesara - Project Size: 4194304 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b aesara -s 4194304 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: CPU - Backend: Aesara - Project Size: 4194304 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b pytorch -s 262144 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: CPU - Backend: PyTorch - Project Size: 262144 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b pytorch -s 262144 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: CPU - Backend: PyTorch - Project Size: 262144 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b aesara -s 1048576 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: GPU - Backend: Aesara - Project Size: 1048576 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b aesara -s 1048576 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: GPU - Backend: Aesara - Project Size: 1048576 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b aesara -s 4194304 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: GPU - Backend: Aesara - Project Size: 4194304 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b aesara -s 4194304 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: GPU - Backend: Aesara - Project Size: 4194304 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b pytorch -s 262144 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: GPU - Backend: PyTorch - Project Size: 262144 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b pytorch -s 262144 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: GPU - Backend: PyTorch - Project Size: 262144 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b pytorch -s 1048576 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: CPU - Backend: PyTorch - Project Size: 1048576 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b pytorch -s 1048576 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: CPU - Backend: PyTorch - Project Size: 1048576 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b pytorch -s 4194304 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: CPU - Backend: PyTorch - Project Size: 4194304 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b pytorch -s 4194304 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: CPU - Backend: PyTorch - Project Size: 4194304 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b pytorch -s 1048576 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: GPU - Backend: PyTorch - Project Size: 1048576 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b pytorch -s 1048576 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: GPU - Backend: PyTorch - Project Size: 1048576 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b pytorch -s 4194304 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: GPU - Backend: PyTorch - Project Size: 4194304 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b pytorch -s 4194304 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: GPU - Backend: PyTorch - Project Size: 4194304 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b tensorflow -s 16384 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: CPU - Backend: TensorFlow - Project Size: 16384 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b tensorflow -s 16384 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: CPU - Backend: TensorFlow - Project Size: 16384 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b tensorflow -s 65536 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: CPU - Backend: TensorFlow - Project Size: 65536 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b tensorflow -s 65536 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: CPU - Backend: TensorFlow - Project Size: 65536 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b tensorflow -s 16384 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: GPU - Backend: TensorFlow - Project Size: 16384 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b tensorflow -s 16384 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: GPU - Backend: TensorFlow - Project Size: 16384 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b tensorflow -s 65536 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: GPU - Backend: TensorFlow - Project Size: 65536 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b tensorflow -s 65536 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: GPU - Backend: TensorFlow - Project Size: 65536 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b tensorflow -s 262144 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: CPU - Backend: TensorFlow - Project Size: 262144 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b tensorflow -s 262144 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: CPU - Backend: TensorFlow - Project Size: 262144 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b tensorflow -s 262144 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: GPU - Backend: TensorFlow - Project Size: 262144 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b tensorflow -s 262144 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: GPU - Backend: TensorFlow - Project Size: 262144 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b tensorflow -s 1048576 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: CPU - Backend: TensorFlow - Project Size: 1048576 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b tensorflow -s 1048576 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: CPU - Backend: TensorFlow - Project Size: 1048576 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b tensorflow -s 4194304 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: CPU - Backend: TensorFlow - Project Size: 4194304 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device cpu -b tensorflow -s 4194304 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: CPU - Backend: TensorFlow - Project Size: 4194304 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b tensorflow -s 1048576 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: GPU - Backend: TensorFlow - Project Size: 1048576 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b tensorflow -s 1048576 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: GPU - Backend: TensorFlow - Project Size: 1048576 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b tensorflow -s 4194304 benchmarks/equation_of_state/</Arguments>
+    <Description>Device: GPU - Backend: TensorFlow - Project Size: 4194304 - Benchmark: Equation of State</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/pyhpc-3.0.0</Test>
+    <Arguments>--device gpu -b tensorflow -s 4194304 benchmarks/isoneutral_mixing/</Arguments>
+    <Description>Device: GPU - Backend: TensorFlow - Project Size: 4194304 - Benchmark: Isoneutral Mixing</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>glmnet.py</Arguments>
+    <Description>Benchmark: Glmnet</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>plot_lasso_path.py</Arguments>
+    <Description>Benchmark: Plot Lasso Path</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>plot_fastkmeans.py</Arguments>
+    <Description>Benchmark: Plot Fast KMeans</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>plot_parallel_pairwise.py</Arguments>
+    <Description>Benchmark: Plot Parallel Pairwise</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>isotonic.py --iterations 100 --log_min_problem_size 1 --log_max_problem_size 10 --dataset pathological</Arguments>
+    <Description>Benchmark: Isotonic / Pathological</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>rcv1_logreg_convergence.py</Arguments>
+    <Description>Benchmark: RCV1 Logreg Convergencet</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/scikit-learn-2.0.0</Test>
+    <Arguments>plot_svd.py</Arguments>
+    <Description>Benchmark: Plot Singular Value Decomposition</Description>
   </Execute>
 </PhoronixTestSuite>
