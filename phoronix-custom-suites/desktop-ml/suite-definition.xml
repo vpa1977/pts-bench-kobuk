@@ -12,182 +12,182 @@
     <Test>pts/numpy-1.2.1</Test>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cpu 1 resnet50</Arguments>
     <Description>Device: CPU - Batch Size: 1 - Model: ResNet-50</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cpu 1 resnet152</Arguments>
     <Description>Device: CPU - Batch Size: 1 - Model: ResNet-152</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cpu 16 resnet50</Arguments>
     <Description>Device: CPU - Batch Size: 16 - Model: ResNet-50</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cpu 32 resnet50</Arguments>
     <Description>Device: CPU - Batch Size: 32 - Model: ResNet-50</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cpu 64 resnet50</Arguments>
     <Description>Device: CPU - Batch Size: 64 - Model: ResNet-50</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cpu 16 resnet152</Arguments>
     <Description>Device: CPU - Batch Size: 16 - Model: ResNet-152</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cpu 256 resnet50</Arguments>
     <Description>Device: CPU - Batch Size: 256 - Model: ResNet-50</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cpu 32 resnet152</Arguments>
     <Description>Device: CPU - Batch Size: 32 - Model: ResNet-152</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cpu 512 resnet50</Arguments>
     <Description>Device: CPU - Batch Size: 512 - Model: ResNet-50</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cpu 64 resnet152</Arguments>
     <Description>Device: CPU - Batch Size: 64 - Model: ResNet-152</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cpu 256 resnet152</Arguments>
     <Description>Device: CPU - Batch Size: 256 - Model: ResNet-152</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cpu 512 resnet152</Arguments>
     <Description>Device: CPU - Batch Size: 512 - Model: ResNet-152</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cpu 1 efficientnet_v2_l</Arguments>
     <Description>Device: CPU - Batch Size: 1 - Model: Efficientnet_v2_l</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cpu 16 efficientnet_v2_l</Arguments>
     <Description>Device: CPU - Batch Size: 16 - Model: Efficientnet_v2_l</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cpu 32 efficientnet_v2_l</Arguments>
     <Description>Device: CPU - Batch Size: 32 - Model: Efficientnet_v2_l</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cpu 64 efficientnet_v2_l</Arguments>
     <Description>Device: CPU - Batch Size: 64 - Model: Efficientnet_v2_l</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cpu 256 efficientnet_v2_l</Arguments>
     <Description>Device: CPU - Batch Size: 256 - Model: Efficientnet_v2_l</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cpu 512 efficientnet_v2_l</Arguments>
     <Description>Device: CPU - Batch Size: 512 - Model: Efficientnet_v2_l</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cuda 1 resnet50</Arguments>
     <Description>Device: NVIDIA CUDA GPU - Batch Size: 1 - Model: ResNet-50</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cuda 1 resnet152</Arguments>
     <Description>Device: NVIDIA CUDA GPU - Batch Size: 1 - Model: ResNet-152</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cuda 16 resnet50</Arguments>
     <Description>Device: NVIDIA CUDA GPU - Batch Size: 16 - Model: ResNet-50</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cuda 32 resnet50</Arguments>
     <Description>Device: NVIDIA CUDA GPU - Batch Size: 32 - Model: ResNet-50</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cuda 64 resnet50</Arguments>
     <Description>Device: NVIDIA CUDA GPU - Batch Size: 64 - Model: ResNet-50</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cuda 16 resnet152</Arguments>
     <Description>Device: NVIDIA CUDA GPU - Batch Size: 16 - Model: ResNet-152</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cuda 256 resnet50</Arguments>
     <Description>Device: NVIDIA CUDA GPU - Batch Size: 256 - Model: ResNet-50</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cuda 32 resnet152</Arguments>
     <Description>Device: NVIDIA CUDA GPU - Batch Size: 32 - Model: ResNet-152</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cuda 512 resnet50</Arguments>
     <Description>Device: NVIDIA CUDA GPU - Batch Size: 512 - Model: ResNet-50</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cuda 64 resnet152</Arguments>
     <Description>Device: NVIDIA CUDA GPU - Batch Size: 64 - Model: ResNet-152</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cuda 256 resnet152</Arguments>
     <Description>Device: NVIDIA CUDA GPU - Batch Size: 256 - Model: ResNet-152</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cuda 512 resnet152</Arguments>
     <Description>Device: NVIDIA CUDA GPU - Batch Size: 512 - Model: ResNet-152</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cuda 1 efficientnet_v2_l</Arguments>
     <Description>Device: NVIDIA CUDA GPU - Batch Size: 1 - Model: Efficientnet_v2_l</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cuda 16 efficientnet_v2_l</Arguments>
     <Description>Device: NVIDIA CUDA GPU - Batch Size: 16 - Model: Efficientnet_v2_l</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cuda 32 efficientnet_v2_l</Arguments>
     <Description>Device: NVIDIA CUDA GPU - Batch Size: 32 - Model: Efficientnet_v2_l</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cuda 64 efficientnet_v2_l</Arguments>
     <Description>Device: NVIDIA CUDA GPU - Batch Size: 64 - Model: Efficientnet_v2_l</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cuda 256 efficientnet_v2_l</Arguments>
     <Description>Device: NVIDIA CUDA GPU - Batch Size: 256 - Model: Efficientnet_v2_l</Description>
   </Execute>
   <Execute>
-    <Test>pts/pytorch-1.0.1</Test>
+    <Test>pts/pytorch-1.1.0</Test>
     <Arguments>cuda 512 efficientnet_v2_l</Arguments>
     <Description>Device: NVIDIA CUDA GPU - Batch Size: 512 - Model: Efficientnet_v2_l</Description>
   </Execute>
