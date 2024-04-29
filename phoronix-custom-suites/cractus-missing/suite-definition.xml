@@ -9,39 +9,8 @@
     <Maintainer>Vladimir Petko</Maintainer>
   </SuiteInformation>
   <Execute>
-    <Test>pts/glibc-bench-1.8.0</Test>
-    <Arguments>bench-cos</Arguments>
-    <Description>Benchmark: cos</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/glibc-bench-1.8.0</Test>
-    <Arguments>bench-sin</Arguments>
-    <Description>Benchmark: sin</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/glibc-bench-1.8.0</Test>
-    <Arguments>bench-sqrt</Arguments>
-    <Description>Benchmark: sqrt</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/glibc-bench-1.8.0</Test>
-    <Arguments>bench-pthread_once</Arguments>
-    <Description>Benchmark: pthread_once</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/dacapobench-1.1.0</Test>
-    <Arguments>jython</Arguments>
-    <Description>Java Test: Jython</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/dacapobench-1.1.0</Test>
-    <Arguments>tradebeans</Arguments>
-    <Description>Java Test: Tradebeans</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/glibc-bench-1.8.0</Test>
-    <Arguments>bench-exp</Arguments>
-    <Description>Benchmark: exp</Description>
+    <Test>system/sqlite-1.0.1</Test>
+    <Description>SQLite </Description>
   </Execute>
   <Execute>
     <Test>pts/glibc-bench-1.8.0</Test>
@@ -49,91 +18,9 @@
     <Description>Benchmark: ffs</Description>
   </Execute>
   <Execute>
-    <Test>pts/glibc-bench-1.8.0</Test>
-    <Arguments>bench-pow</Arguments>
-    <Description>Benchmark: pow</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/glibc-bench-1.8.0</Test>
-    <Arguments>bench-log2</Arguments>
-    <Description>Benchmark: log2</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/glibc-bench-1.8.0</Test>
-    <Arguments>bench-modf</Arguments>
-    <Description>Benchmark: modf</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/glibc-bench-1.8.0</Test>
-    <Arguments>bench-sinh</Arguments>
-    <Description>Benchmark: sinh</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/glibc-bench-1.8.0</Test>
-    <Arguments>bench-tanh</Arguments>
-    <Description>Benchmark: tanh</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/glibc-bench-1.8.0</Test>
-    <Arguments>bench-asinh</Arguments>
-    <Description>Benchmark: asinh</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/glibc-bench-1.8.0</Test>
-    <Arguments>bench-atanh</Arguments>
-    <Description>Benchmark: atanh</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/glibc-bench-1.8.0</Test>
-    <Arguments>bench-ffsll</Arguments>
-    <Description>Benchmark: ffsll</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/glibc-bench-1.8.0</Test>
-    <Arguments>bench-sincos</Arguments>
-    <Description>Benchmark: sincos</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/rust-mandel-1.0.0</Test>
-    <Description>Time To Complete Serial/Parallel Mandelbrot</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/cpuminer-opt-1.7.0</Test>
-    <Arguments>-a m7m</Arguments>
-    <Description>Algorithm: m7m</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/cpuminer-opt-1.7.0</Test>
-    <Arguments>-a deep</Arguments>
-    <Description>Algorithm: deep</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/cpuminer-opt-1.7.0</Test>
-    <Arguments>-a skein</Arguments>
-    <Description>Algorithm: skein</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/cpuminer-opt-1.7.0</Test>
-    <Arguments>-a sha256t</Arguments>
-    <Description>Algorithm: sha256t</Description>
-  </Execute>
-  <Execute>
-    <Test>system/gimp-1.1.3</Test>
-    <Description>GIMP System </Description>
-  </Execute>
-  <Execute>
-    <Test>pts/rodinia-1.3.2</Test>
-    <Arguments>OMP_LAVAMD</Arguments>
-    <Description>Test: OpenMP LavaMD</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/rodinia-1.3.2</Test>
-    <Arguments>OMP_CFD</Arguments>
-    <Description>Test: OpenMP CFD Solver</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/c-ray-1.2.0</Test>
-    <Description>Total Time - 4K, 16 Rays Per Pixel</Description>
+    <Test>pts/renaissance-1.3.0</Test>
+    <Arguments>dotty</Arguments>
+    <Description>Test: Scala Dotty</Description>
   </Execute>
 
 </PhoronixTestSuite>
