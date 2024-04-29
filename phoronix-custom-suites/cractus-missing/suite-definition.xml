@@ -122,7 +122,18 @@
     <Description>GIMP System </Description>
   </Execute>
   <Execute>
-    <Test>system/tesseract-ocr-1.0.1</Test>
-    <Description>Tesseract OCR System </Description>
+    <Test>pts/rodinia-1.3.2</Test>
+    <Arguments>OMP_LAVAMD</Arguments>
+    <Description>Test: OpenMP LavaMD</Description>
   </Execute>
+  <Execute>
+    <Test>pts/rodinia-1.3.2</Test>
+    <Arguments>OMP_CFD</Arguments>
+    <Description>Test: OpenMP CFD Solver</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/c-ray-1.2.0</Test>
+    <Description>Total Time - 4K, 16 Rays Per Pixel</Description>
+  </Execute>
+
 </PhoronixTestSuite>
