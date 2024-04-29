@@ -9,18 +9,26 @@
     <Maintainer>Vladimir Petko</Maintainer>
   </SuiteInformation>
   <Execute>
-    <Test>pts/redis-1.4.0</Test>
-    <Arguments>-t get</Arguments>
-    <Description>Test: GET</Description>
+    <Test>pts/c-ray-1.2.0</Test>
+    <Description>Total Time - 4K, 16 Rays Per Pixel</Description>
   </Execute>
   <Execute>
-    <Test>pts/redis-1.4.0</Test>
-    <Arguments>-t set</Arguments>
-    <Description>Test: SET</Description>
+    <Test>pts/kvazaar-1.2.0</Test>
+    <Arguments>-i Bosphorus_1920x1080_120fps_420_8bit_YUV.y4m --preset ultrafast</Arguments>
+    <Description>Video Input: Bosphorus 1080p - Video Preset: Ultra Fast</Description>
   </Execute>
   <Execute>
-    <Test>system/gmic-1.0.0</Test>
-    <Description>G'MIC System </Description>
+    <Test>system/rsvg-1.0.0</Test>
+    <Description>librsvg System </Description>
+  </Execute>
+  <Execute>
+    <Test>system/sqlite-1.0.1</Test>
+    <Description>SQLite </Description>
+  </Execute>
+  <Execute>
+    <Test>pts/hackbench-1.0.0</Test>
+    <Arguments>32 process</Arguments>
+    <Description>Count: 32 - Type: Process</Description>
   </Execute>
 
   <Execute>
