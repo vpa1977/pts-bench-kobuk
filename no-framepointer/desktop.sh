@@ -24,8 +24,8 @@ export QMAKE_CXXFLAGS=$CXXFLAGS
 export QMAKE_CFLAGS=$CFLAGS
 export OMIT_POINTER=
 host=`hostname`
-export TEST_RESULTS_IDENTIFIER=mantic
-export TEST_RESULTS_NAME=mantic
+export TEST_RESULTS_IDENTIFIER=desktop-noble-disabled-fp
+export TEST_RESULTS_NAME=desktop-noble-disabled-fp
 export TEST_RESULTS_DESCRIPTION='baseline result'
 #DISPLAY=:0 NO_FILE_HASH_CHECKS=1 PTS_SILENT_MODE=1 $PTS_BIN finish-run $TEST_RESULTS_IDENTIFIER
 DISPLAY=:0 NO_FILE_HASH_CHECKS=1 PTS_SILENT_MODE=1 $PTS_BIN batch-benchmark noble-regressions
