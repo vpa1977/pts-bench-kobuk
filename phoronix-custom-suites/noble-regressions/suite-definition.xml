@@ -8,6 +8,7 @@
     <Description>All server tests</Description>
     <Maintainer>Vladimir Petko</Maintainer>
   </SuiteInformation>
+  <!-- glibc package test, compiled in place -->
   <Execute>
     <Test>pts/glibc-bench-1.8.0</Test>
     <Arguments>bench-cos</Arguments>
@@ -28,15 +29,18 @@
     <Arguments>bench-pthread_once</Arguments>
     <Description>Benchmark: pthread_once</Description>
 </Execute>
+<!-- kvazaar package test, compiled in place -->
 <Execute>
     <Test>pts/kvazaar-1.2.0</Test>
     <Arguments>-i Bosphorus_1920x1080_120fps_420_8bit_YUV.y4m --preset ultrafast</Arguments>
     <Description>Video Input: Bosphorus 1080p - Video Preset: Ultra Fast</Description>
   </Execute>
+  <!-- rebuild librsvg in the ppa -->
   <Execute>
     <Test>system/rsvg-1.0.0</Test>
     <Description>librsvg System </Description>
   </Execute>
+  <!-- mariadb rebuilt in place -->
   <Execute>
     <Test>pts/mysqlslap-1.4.0</Test>
     <Arguments>--concurrency=128</Arguments>
@@ -47,11 +51,13 @@
     <Arguments>--concurrency=256</Arguments>
     <Description>Clients: 256</Description>
   </Execute>
+  <!-- cython rebuilt in place -->
   <Execute>
     <Test>pts/cython-bench-1.1.0</Test>
     <Arguments>NQUEENS</Arguments>
     <Description>Test: N-Queens</Description>
   </Execute>
+  <!-- system gcc rebuilt in ppa -->
   <Execute>
     <Test>pts/build-gcc-1.4.0</Test>
     <Description>Time To Compile</Description>
@@ -60,11 +66,13 @@
     <Test>pts/build-linux-kernel-1.15.0</Test>
     <Description>Time To Compile</Description>
   </Execute>
+  <!-- zstd rebuilt in place -->
   <Execute>
     <Test>pts/compress-zstd-1.6.0</Test>
     <Arguments>-b8</Arguments>
     <Description>Compression Level: 8 - Compression Speed</Description>
   </Execute>
+  <!-- solver built in place -->
   <Execute>
     <Test>pts/himeno-1.3.0</Test>
     <Description>Poisson Pressure Solver</Description>
